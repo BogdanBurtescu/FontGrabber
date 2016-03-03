@@ -120,6 +120,8 @@ public class BitmapFontCreator
         final int ascent = (int)fm.getAscent();
         final int descent = (int)fm.getDescent();
 
+
+
         final int area = fm.stringWidth(glyphs) * (ascent + descent + verticalSpacing);
         final int width = Integer.highestOneBit((int)Math.ceil(Math.sqrt(area))) << 1;
         final int height = (ascent + descent + verticalSpacing) * glyphs.length()/ this.MAX_CHARS_PER_LINE;
@@ -165,20 +167,19 @@ public class BitmapFontCreator
             int nameASCII = (int) glyph;
             String nameHex = String.format("%04x", (int) glyph);
             String ASCIICode = Integer.toString(nameASCII);
-            int charWidth = (int)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphVisualBounds(charIndex).getBounds2D().getWidth();
+
+            int charWidth = (int)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getBounds2D().getWidth();
             int charHeight = (int)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getBounds2D().getHeight();
             int[] charPos = new int[2];
             charPos[0] = (int)xPos;
-            charPos[1] = (int)yPos;
+            charPos[1] = (int)y;
             double charLeftBearing = (double)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getLSB();
             double charRightBearing = (double)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getRSB();
-
 
             Glyph arrayGlyph = new Glyph(nameHex, ASCIICode, charWidth, charHeight, charPos, 0 ,0 ,charLeftBearing, charRightBearing);
             chars.add(arrayGlyph);
 
 
-            x += glyphWidth;
         }
 
         String fontType = null;
