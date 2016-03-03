@@ -15,6 +15,8 @@ public class BitmapFontCreator
 
     private char fontType;
 
+    private int MAX_CHARS_PER_LINE = 16;
+
     public void setFontType(char fontType) {
         if(fontType == 'B' || fontType == 'I' || fontType == 'R'){
             this.fontType = fontType;
@@ -120,7 +122,7 @@ public class BitmapFontCreator
 
         final int area = fm.stringWidth(glyphs) * (ascent + descent + verticalSpacing);
         final int width = Integer.highestOneBit((int)Math.ceil(Math.sqrt(area))) << 1;
-        final int height = width;
+        final int height = (ascent + descent + verticalSpacing) * glyphs.length()/ this.MAX_CHARS_PER_LINE;
 
 
         GraphicsConfiguration gc = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice().getDefaultConfiguration();
@@ -152,7 +154,7 @@ public class BitmapFontCreator
                 double yPos = graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphPosition(charIndex).getY();
 
             int glyphWidth = r2d.getBounds().width;
-            if (charNum > 16) {
+            if (charNum > this.MAX_CHARS_PER_LINE) {
                 charNum = 0;
                 x = 0;
                 y = y + ascent + descent + verticalSpacing;
