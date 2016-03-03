@@ -6,7 +6,6 @@ import java.awt.*;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.io.*;
-import java.nio.Buffer;
 import java.util.*;
 import java.util.List;
 
@@ -16,11 +15,9 @@ public class BitmapFontCreator
 
     private char fontType;
 
-    private int MAX_CHARS_PER_LINE = 15;
+    private int MAX_CHARS_PER_LINE = 16;
 
-    private int HORIZONTAL_CHAR_SEPARATOR_DIMENSION = 2;
-
-    private int BUFFER = 5;
+    private int HORIZ_CHAR_SEPARATOR = 2;
 
     public void setFontType(char fontType) {
         if(fontType == 'B' || fontType == 'I' || fontType == 'R'){
@@ -89,8 +86,6 @@ public class BitmapFontCreator
 
 
 
-
-
         System.out.println("Writing " + outDir + File.separator + fileName + ".json");
         ObjectMapper mapper = new ObjectMapper();
         mapper.writeValue(new File(outDir + File.separator + fileName + ".json"), font);
@@ -116,6 +111,7 @@ public class BitmapFontCreator
             font = font.deriveFont(Font.PLAIN, size);
         }
 
+
         return createFontMetrics(font, size, glyphs, argb, antiAlias);
     }
 
@@ -125,12 +121,6 @@ public class BitmapFontCreator
         FontMetrics fm = new Canvas().getFontMetrics(font);
         final int ascent = (int)fm.getAscent();
         final int descent = (int)fm.getDescent();
-        int totalNecessaryWidth = this.HORIZONTAL_CHAR_SEPARATOR_DIMENSION * this.MAX_CHARS_PER_LINE;
-        for (int i = 0; i<glyphs.length(); i++)
-        {
-            int charWidth = fm.charWidth(glyphs.codePointAt(i));
-            totalNecessaryWidth += charWidth;
-        }
 
         final int area = fm.stringWidth(glyphs) * (ascent + descent + verticalSpacing);
         final int width = Integer.highestOneBit((int)Math.ceil(Math.sqrt(area))) << 1;
@@ -159,36 +149,36 @@ public class BitmapFontCreator
 
 
             int charIndex = graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphCharIndex(i);
+            System.out.println((double)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getRSB());
 
 
             double xPos = graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphPosition(charIndex).getX();
             double yPos = graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphPosition(charIndex).getY();
 
             int glyphWidth = r2d.getBounds().width;
-            System.out.println(glyphWidth);
             if (charNum > this.MAX_CHARS_PER_LINE) {
                 charNum = 0;
                 x = 0;
                 y = y + ascent + descent + verticalSpacing;
             }
-
             charNum++;
-            int charLeftBearing = (int)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getLSB();
-            int charRightBearing = (int)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getRSB();
 
-            graphics.drawString(glyphString, x * this.HORIZONTAL_CHAR_SEPARATOR_DIMENSION, y);
+            graphics.drawString(glyphString, x * this.HORIZ_CHAR_SEPARATOR, y);
             int nameASCII = (int) glyph;
             String nameHex = String.format("%04x", (int) glyph);
             String ASCIICode = Integer.toString(nameASCII);
-            int charWidth = (int)(graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getBounds2D().getBounds().getMaxX() - graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getBounds2D().getBounds().getMinX());
-            int charHeight = (int)(graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getBounds2D().getBounds().getMaxY() - graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getBounds2D().getBounds().getMinY());
+            int charWidth = (int)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphVisualBounds(charIndex).getBounds2D().getWidth();
+            int charHeight = (int)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getBounds2D().getHeight();
             int[] charPos = new int[2];
-            charPos[0] = (int)xPos;
-            charPos[1] = y;
-            int charAscent = 0;
-            int charDescent = 0;
-            Glyph arrayGlyph = new Glyph(nameHex, ASCIICode, charWidth, charHeight, charPos, charAscent ,charDescent ,charLeftBearing, charRightBearing);
+            charPos[0] = x;
+            charPos[1] = (int)yPos;
+            double charLeftBearing = (double)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getLSB();
+            double charRightBearing = (double)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getRSB();
+
+
+            Glyph arrayGlyph = new Glyph(nameHex, ASCIICode, charWidth, charHeight, charPos, 0 ,0 ,charLeftBearing, charRightBearing);
             chars.add(arrayGlyph);
+
 
             x += glyphWidth;
         }
