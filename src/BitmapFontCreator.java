@@ -112,7 +112,7 @@ public class BitmapFontCreator
         graphics.setFont(font);
         graphics.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, antiAlias ? RenderingHints.VALUE_TEXT_ANTIALIAS_ON : RenderingHints.VALUE_TEXT_ANTIALIAS_OFF);
 
-        ArrayList<BitmapFont.Glyph> chars = new ArrayList<BitmapFont.Glyph>();
+        ArrayList<Glyph> chars = new ArrayList<Glyph>();
         final int glyphCount = glyphs.length();
         int x = 0;
         int y = ascent;
@@ -153,7 +153,7 @@ public class BitmapFontCreator
             double charRightBearing = (double)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getRSB();
 
 
-            BitmapFont.Glyph arrayGlyph = new BitmapFont.Glyph(nameHex, ASCIICode, charWidth, charHeight, charPos, 0 ,0 ,charLeftBearing, charRightBearing);
+            Glyph arrayGlyph = new Glyph(nameHex, ASCIICode, charWidth, charHeight, charPos, 0 ,0 ,charLeftBearing, charRightBearing);
             chars.add(arrayGlyph);
 
 
