@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="args4j-2.0.21">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/bitmapfontcreator-master/libs/args4j-2.0.21.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/bitmapfontcreator-master/libs/jackson-annotations-2.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/bitmapfontcreator-master/libs/jackson-core-2.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/bitmapfontcreator-master/libs/jackson-databind-2.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

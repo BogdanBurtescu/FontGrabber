@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FontGrabber:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FontGrabber_jar</output-path>
+    <root id="archive" name="FontGrabber.jar">
+      <element id="module-output" name="FontGrabber" />
+      <element id="library" level="project" name="org.apache.servicemix.bundles:org.apache.servicemix.bundles.fop:2.1_1" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/ant/ant/1.7.0/ant-1.7.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/bitmapfontcreator-master/libs/args4j-2.0.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/bitmapfontcreator-master/libs/jackson-annotations-2.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/bitmapfontcreator-master/libs/jackson-core-2.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/bitmapfontcreator-master/libs/jackson-databind-2.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/servicemix/bundles/org.apache.servicemix.bundles.xmlgraphics-commons/2.1_1/org.apache.servicemix.bundles.xmlgraphics-commons-2.1_1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/qtjambi-4.5.2_01.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
