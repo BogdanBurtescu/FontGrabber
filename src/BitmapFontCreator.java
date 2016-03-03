@@ -79,16 +79,16 @@ public class BitmapFontCreator
 
         File file = new File(ttf);
         String fileName = file.getName().substring(0, file.getName().lastIndexOf("."));
-        System.out.println("Writing " + outDir + File.separator + fileName + ".png");
+        System.out.println("Writing " + outDir + File.separator + fileName + size + ".png");
 
 
-        ImageIO.write(font.getImage(), "png", new FileOutputStream(new File(outDir + File.separator + fileName + ".png")));
+        ImageIO.write(font.getImage(), "png", new FileOutputStream(new File(outDir + File.separator + fileName + size + ".png")));
 
 
 
-        System.out.println("Writing " + outDir + File.separator + fileName + ".json");
+        System.out.println("Writing " + outDir + File.separator + fileName + size + ".json");
         ObjectMapper mapper = new ObjectMapper();
-        mapper.writeValue(new File(outDir + File.separator + fileName + ".json"), font);
+        mapper.writeValue(new File(outDir + File.separator + fileName + size + ".json"), font);
         return font;
 
     }
