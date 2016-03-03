@@ -11,6 +11,7 @@ import java.awt.font.GlyphVector;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.io.*;
+import java.nio.Buffer;
 import java.util.*;
 import java.util.List;
 import javax.swing.*;
@@ -69,7 +70,10 @@ public class BitmapFontCreator
         File file = new File(ttf);
         String fileName = file.getName().substring(0, file.getName().lastIndexOf("."));
         System.out.println("Writing " + outDir + File.separator + fileName + ".png");
+
+
         ImageIO.write(font.getImage(), "png", new FileOutputStream(new File(outDir + File.separator + fileName + ".png")));
+
 
 
         System.out.println("Writing " + outDir + File.separator + fileName + ".json");
@@ -99,22 +103,21 @@ public class BitmapFontCreator
         final int width = Integer.highestOneBit((int)Math.ceil(Math.sqrt(area))) << 1;
         final int height = width;
 
+
         GraphicsConfiguration gc = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice().getDefaultConfiguration();
         BufferedImage image = gc.createCompatibleImage(width, height, Transparency.TRANSLUCENT);
-
 
         Graphics2D graphics = (Graphics2D)image.getGraphics();
         graphics.setColor(new Color(argb, true));
         graphics.setFont(font);
         graphics.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, antiAlias ? RenderingHints.VALUE_TEXT_ANTIALIAS_ON : RenderingHints.VALUE_TEXT_ANTIALIAS_OFF);
 
-        Map<Character, BitmapFont.Glyph> glyphMap = new HashMap<Character, BitmapFont.Glyph>();
         ArrayList<BitmapFont.Glyph> chars = new ArrayList<BitmapFont.Glyph>();
         final int glyphCount = glyphs.length();
         int x = 0;
         int y = ascent;
         String glyphList = "";
-
+        int charNum = 0;
         for(int i = 0; i < glyphCount; i++) {
             char glyph = glyphs.charAt(i);
             String glyphString = Character.toString(glyph);
@@ -130,10 +133,13 @@ public class BitmapFontCreator
                 double yPos = graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphPosition(charIndex).getY();
 
             int glyphWidth = r2d.getBounds().width;
-            if (x + glyphWidth > width) {
+            if (charNum > 16) {
+                charNum = 0;
                 x = 0;
                 y = y + ascent + descent + verticalSpacing;
             }
+            charNum++;
+
             graphics.drawString(glyphString, x, y);
             int nameASCII = (int) glyph;
             String nameHex = String.format("%04x", (int) glyph);
@@ -146,7 +152,6 @@ public class BitmapFontCreator
             double charLeftBearing = (double)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getLSB();
             double charRightBearing = (double)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getRSB();
 
-            QFont qFont = new QFont("times");
 
             BitmapFont.Glyph arrayGlyph = new BitmapFont.Glyph(nameHex, ASCIICode, charWidth, charHeight, charPos, 0 ,0 ,charLeftBearing, charRightBearing);
             chars.add(arrayGlyph);
