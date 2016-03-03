@@ -1,23 +1,29 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.deser.std.NumberDeserializers;
-import com.trolltech.qt.gui.QFont;
 import org.kohsuke.args4j.Argument;
-import sun.swing.SwingUtilities2;
-import java.awt.Toolkit.*;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
-import java.awt.font.GlyphVector;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.io.*;
-import java.nio.Buffer;
 import java.util.*;
 import java.util.List;
-import javax.swing.*;
+
 public class BitmapFontCreator
 {
+
+
+    private char fontType;
+
+    public void setFontType(char fontType) {
+        if(fontType == 'B' || fontType == 'I' || fontType == 'R'){
+            this.fontType = fontType;
+
+        }
+    }
+
     public void setTtf(String ttf) {
+
         this.ttf = ttf;
     }
 
@@ -87,13 +93,26 @@ public class BitmapFontCreator
     private BitmapFont createFonts(String fontFile, int size, String glyphs, int argb, boolean antiAlias) throws FontFormatException, IOException {
         InputStream is = new FileInputStream(fontFile);
         Font font = Font.createFont(Font.TRUETYPE_FONT, is);
-        font = font.deriveFont(Font.PLAIN, size);
+
+        if(this.fontType == 'I')
+        {
+            font = font.deriveFont(Font.ITALIC, size);
+        }
+        if(this.fontType == 'B')
+        {
+            font = font.deriveFont(Font.BOLD, size);
+        }
+        if(this.fontType == 'R')
+        {
+            font = font.deriveFont(Font.PLAIN, size);
+        }
+
+
         return createFontMetrics(font, size, glyphs, argb, antiAlias);
     }
 
     private BitmapFont createFontMetrics(Font font, int size, String glyphs, int argb, boolean antiAlias){
         final int verticalSpacing = 1;
-
 
         FontMetrics fm = new Canvas().getFontMetrics(font);
         final int ascent = (int)fm.getAscent();

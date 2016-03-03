@@ -25,6 +25,7 @@ import java.util.Scanner;
 
 import javax.imageio.ImageIO;
 
+import com.trolltech.qt.core.QStateMachine;
 import com.trolltech.qt.gui.QFont;
 import com.trolltech.qt.gui.QFontMetrics;
 import org.kohsuke.args4j.Argument;
@@ -79,6 +80,26 @@ public class Main {
                 System.out.println("Couldn't parse input, please try again");
             }
         } while (true);
+
+        System.out.println("Specify font type (e.g. B = bold, I = italic, R = regular):");
+
+        do {
+            try{
+                char fontType = userInput.next().charAt(0);
+                if(fontType == 'I' || fontType == 'B' || fontType == 'R'){
+                    bitmapFontCreator.setFontType(fontType);
+                }else{
+                    throw new Exception();
+                }
+                break;
+
+            }
+            catch (Exception e)
+            {
+                System.out.println("Please input B, I or R");
+            }
+        } while (true);
+
 
         System.out.println("PATH OF OUTPUT DIRECTORY: ");
         String outputDirectory;
