@@ -25,7 +25,7 @@ public class BitmapFontCreator
     @Option(name="-s", aliases={"--size"}, usage="Size to render font in (pixels)", required=true)
     private int size = -1;
 
-    @Option(name="-g", aliases={"--glyphs"}, usage="path to a single line text file containing all glyphs/characters to render", required=true)
+    @Option(name="-g", aliases={"--glyphs"}, usage="path to a single line text file containing all glyphs/characters to render", required=false)
     private String glyphFile;
 
     @Option(name="-a", aliases={"--antialias"}, usage="Render font with anti alias enabled", required=false)
@@ -62,7 +62,12 @@ public class BitmapFontCreator
             argsParser.printUsage(System.err);
             return null;
         }
-        final String glyphs = getFileAsString(glyphFile);
+        String glyphs;
+        if(glyphFile == null){
+             glyphs = getFileAsString("glyphs.txt");
+        }else{
+            glyphs = getFileAsString(glyphFile);
+        }
 
         BitmapFont font;
         try {
@@ -131,8 +136,6 @@ public class BitmapFontCreator
 
 
             int charIndex = graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphCharIndex(i);
-            System.out.println((double)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getRSB());
-
 
             double xPos = graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphPosition(charIndex).getX();
             double yPos = graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphPosition(charIndex).getY();
