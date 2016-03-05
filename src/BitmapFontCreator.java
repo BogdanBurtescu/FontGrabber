@@ -1,4 +1,5 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import org.kohsuke.args4j.Argument;
 import org.kohsuke.args4j.CmdLineException;
 import org.kohsuke.args4j.CmdLineParser;
@@ -92,11 +93,13 @@ public class BitmapFontCreator
             }
         }
 
+
         System.out.println("Generating " + outDir + File.separator + resultDirectory.getName() + File.separator + fileName + size + ".png");
         ImageIO.write(font.getImage(), "png", new FileOutputStream(new File(outDir + File.separator + resultDirectory.getName() + File.separator+ fileName + size + ".png")));
 
         System.out.println("Generating " + outDir + File.separator + resultDirectory.getName() + File.separator + fileName + size + ".json");
         ObjectMapper mapper = new ObjectMapper();
+        mapper.enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(new File(outDir + File.separator + resultDirectory.getName() + File.separator + fileName + size + ".json"), font);
         return font;
     }
