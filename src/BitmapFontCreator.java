@@ -71,14 +71,33 @@ public class BitmapFontCreator
             return null;
         }
 
+
+
         File file = new File(ttf);
         String fileName = file.getName().substring(0, file.getName().lastIndexOf("."));
-        System.out.println("Writing " + outDir + File.separator + fileName + size + ".png");
-        ImageIO.write(font.getImage(), "png", new FileOutputStream(new File(outDir + File.separator + fileName + size + ".png")));
 
-        System.out.println("Writing " + outDir + File.separator + fileName + size + ".json");
+        File resultDirectory = new File(fileName + size);
+        if(!resultDirectory.exists())
+        {
+            boolean result = false;
+            System.out.println("Creating directory " + resultDirectory.getName());
+            try{
+                resultDirectory.mkdir();
+                result = true;
+            }catch (SecurityException se){
+
+            }
+            if(result){
+                System.out.println("Directory " + resultDirectory.getName() + " has been created.");
+            }
+        }
+
+        System.out.println("Generating " + outDir + File.separator + resultDirectory.getName() + File.separator + fileName + size + ".png");
+        ImageIO.write(font.getImage(), "png", new FileOutputStream(new File(outDir + File.separator + resultDirectory.getName() + File.separator+ fileName + size + ".png")));
+
+        System.out.println("Generating " + outDir + File.separator + resultDirectory.getName() + File.separator + fileName + size + ".json");
         ObjectMapper mapper = new ObjectMapper();
-        mapper.writeValue(new File(outDir + File.separator + fileName + size + ".json"), font);
+        mapper.writeValue(new File(outDir + File.separator + resultDirectory.getName() + File.separator + fileName + size + ".json"), font);
         return font;
     }
 
