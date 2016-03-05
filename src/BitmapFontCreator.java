@@ -16,9 +16,6 @@ import java.util.Scanner;
 public class BitmapFontCreator
 {
 
-
-
-
     @Option(name="-f", aliases={"--font","--ttf"}, usage="TTF-file to create bitmap font from", required=true)
     private String ttf;
 
@@ -34,12 +31,9 @@ public class BitmapFontCreator
     @Option(name="-o", aliases={"--out"}, usage="Output directory to write PNG and JSON file to", required=false)
     private String outDir = ".";
 
-
     private int MAX_CHARS_PER_LINE = 16;
 
     private int HORIZ_CHAR_SEPARATOR = 2;
-
-
 
     private String color = "FFFFFFFF";
 
@@ -80,19 +74,13 @@ public class BitmapFontCreator
         File file = new File(ttf);
         String fileName = file.getName().substring(0, file.getName().lastIndexOf("."));
         System.out.println("Writing " + outDir + File.separator + fileName + size + ".png");
-
-
         ImageIO.write(font.getImage(), "png", new FileOutputStream(new File(outDir + File.separator + fileName + size + ".png")));
-
-
 
         System.out.println("Writing " + outDir + File.separator + fileName + size + ".json");
         ObjectMapper mapper = new ObjectMapper();
         mapper.writeValue(new File(outDir + File.separator + fileName + size + ".json"), font);
         return font;
-
     }
-
 
     private BitmapFont createFonts(String fontFile, int size, String glyphs, int argb, boolean antiAlias) throws FontFormatException, IOException {
         InputStream is = new FileInputStream(fontFile);
@@ -110,7 +98,7 @@ public class BitmapFontCreator
         final int descent = (int)fm.getDescent();
 
         final int area = fm.stringWidth(glyphs) * (ascent + descent + verticalSpacing);
-        final int width = Integer.highestOneBit((int)Math.ceil(Math.sqrt(area))) << 1;
+        final int width = (int)Math.ceil(Math.sqrt(area)/2.5) << 2;
         final int height = (ascent + descent + verticalSpacing) * glyphs.length()/ this.MAX_CHARS_PER_LINE;
 
 
