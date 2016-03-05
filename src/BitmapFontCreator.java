@@ -1,62 +1,47 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.kohsuke.args4j.Argument;
+import org.kohsuke.args4j.CmdLineException;
+import org.kohsuke.args4j.CmdLineParser;
+import org.kohsuke.args4j.Option;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.io.*;
-import java.util.*;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class BitmapFontCreator
 {
 
 
-    private char fontType;
+
+
+    @Option(name="-f", aliases={"--font","--ttf"}, usage="TTF-file to create bitmap font from", required=true)
+    private String ttf;
+
+    @Option(name="-s", aliases={"--size"}, usage="Size to render font in (pixels)", required=true)
+    private int size = -1;
+
+    @Option(name="-g", aliases={"--glyphs"}, usage="path to a single line text file containing all glyphs/characters to render", required=true)
+    private String glyphFile;
+
+    @Option(name="-a", aliases={"--antialias"}, usage="Render font with anti alias enabled", required=false)
+    private boolean antiAlias = false;
+
+    @Option(name="-o", aliases={"--out"}, usage="Output directory to write PNG and JSON file to", required=false)
+    private String outDir = ".";
+
 
     private int MAX_CHARS_PER_LINE = 16;
 
     private int HORIZ_CHAR_SEPARATOR = 2;
 
-    public void setFontType(char fontType) {
-        if(fontType == 'B' || fontType == 'I' || fontType == 'R'){
-            this.fontType = fontType;
 
-        }
-    }
 
-    public void setTtf(String ttf) {
-
-        this.ttf = ttf;
-    }
-
-    public void setSize(int size) {
-        this.size = size;
-    }
-
-    public void setGlyphFile(String glyphFile) {
-        this.glyphFile = glyphFile;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public void setAntiAlias(boolean antiAlias) {
-        this.antiAlias = antiAlias;
-    }
-
-    public void setOutDir(String outDir) {
-        this.outDir = outDir;
-    }
-
-    private String ttf;
-    private int size = -1;
-    private String glyphFile;
     private String color = "FFFFFFFF";
-    private boolean antiAlias = false;
-    private String outDir = ".";
 
     @Argument
     private List<String> arguments = new ArrayList<String>();
@@ -65,9 +50,19 @@ public class BitmapFontCreator
     {
     }
 
-    public BitmapFont writeFonts() throws FontFormatException, IOException
+    public BitmapFont writeFonts(String[] args) throws FontFormatException, IOException
     {
-        final String glyphs = getFileAsString("glyphs.txt");
+
+        CmdLineParser argsParser = new CmdLineParser(this);
+        try {
+            argsParser.parseArgument(args);
+        }
+        catch (CmdLineException e) {
+            System.err.println("Usage: java -jar bitmapfontcreator.jar [options...]");
+            argsParser.printUsage(System.err);
+            return null;
+        }
+        final String glyphs = getFileAsString(glyphFile);
 
         BitmapFont font;
         try {
@@ -97,20 +92,7 @@ public class BitmapFontCreator
     private BitmapFont createFonts(String fontFile, int size, String glyphs, int argb, boolean antiAlias) throws FontFormatException, IOException {
         InputStream is = new FileInputStream(fontFile);
         Font font = Font.createFont(Font.TRUETYPE_FONT, is);
-
-        if(this.fontType == 'I')
-        {
-            font = font.deriveFont(Font.ITALIC, size);
-        }
-        if(this.fontType == 'B')
-        {
-            font = font.deriveFont(Font.BOLD, size);
-        }
-        if(this.fontType == 'R')
-        {
-            font = font.deriveFont(Font.PLAIN, size);
-        }
-
+        font = font.deriveFont(Font.PLAIN, size);
 
         return createFontMetrics(font, size, glyphs, argb, antiAlias);
     }
