@@ -26,6 +26,15 @@ public class BitmapFontCreator
     @Option(name="-g", aliases={"--glyphs"}, usage="path to a single line text file containing all glyphs/characters to render", required=false)
     private String glyphFile;
 
+    @Option(name="-b", aliases={"--bold"}, usage="boolean to set bold font", required=false)
+    private boolean bold;
+
+    @Option(name="-i", aliases={"--italic"}, usage="boolean to set italic font", required=false)
+    private boolean italic;
+
+    @Option(name="-r", aliases={"--regular"}, usage="boolean to set regular font", required=false)
+    private boolean regular;
+
     @Option(name="-a", aliases={"--antialias"}, usage="Render font with anti alias enabled", required=false)
     private boolean antiAlias = false;
 
@@ -37,6 +46,9 @@ public class BitmapFontCreator
     private int HORIZ_CHAR_SEPARATOR = 2;
 
     private String color = "FFFFFFFF";
+
+    private String exportNameComponent;
+
 
     @Argument
     private List<String> arguments = new ArrayList<String>();
@@ -64,6 +76,20 @@ public class BitmapFontCreator
             glyphs = getFileAsString(glyphFile);
         }
 
+        if(bold){
+            this.exportNameComponent = "Bold";
+        }
+        if(italic){
+            this.exportNameComponent = "Italic";
+        }
+        if(bold && italic){
+            this.exportNameComponent = "BoldItalic";
+        }
+        if(!bold && !italic){
+            this.exportNameComponent = "Regular";
+        }
+
+
         BitmapFont font;
         try {
             font = createFonts(ttf, size, glyphs, (int)Long.parseLong(color, 16), antiAlias);
@@ -77,7 +103,7 @@ public class BitmapFontCreator
         File file = new File(ttf);
         String fileName = file.getName().substring(0, file.getName().lastIndexOf("."));
 
-        File resultDirectory = new File(fileName + size);
+        File resultDirectory = new File(fileName + size + this.exportNameComponent);
         if(!resultDirectory.exists())
         {
             boolean result = false;
@@ -94,20 +120,32 @@ public class BitmapFontCreator
         }
 
 
-        System.out.println("Generating " + outDir + File.separator + resultDirectory.getName() + File.separator + fileName + size + ".png");
-        ImageIO.write(font.getImage(), "png", new FileOutputStream(new File(outDir + File.separator + resultDirectory.getName() + File.separator+ fileName + size + ".png")));
+        System.out.println("Generating " + outDir + File.separator + resultDirectory.getName() + File.separator + fileName + size + this.exportNameComponent + ".png");
+        ImageIO.write(font.getImage(), "png", new FileOutputStream(new File(outDir + File.separator + resultDirectory.getName() + File.separator+ fileName + size + this.exportNameComponent + ".png")));
 
-        System.out.println("Generating " + outDir + File.separator + resultDirectory.getName() + File.separator + fileName + size + ".json");
+        System.out.println("Generating " + outDir + File.separator + resultDirectory.getName() + File.separator + fileName + size  + this.exportNameComponent + ".json");
         ObjectMapper mapper = new ObjectMapper();
         mapper.enable(SerializationFeature.INDENT_OUTPUT);
-        mapper.writeValue(new File(outDir + File.separator + resultDirectory.getName() + File.separator + fileName + size + ".json"), font);
+        mapper.writeValue(new File(outDir + File.separator + resultDirectory.getName() + File.separator + fileName + size + this.exportNameComponent + ".json"), font);
         return font;
     }
 
     private BitmapFont createFonts(String fontFile, int size, String glyphs, int argb, boolean antiAlias) throws FontFormatException, IOException {
         InputStream is = new FileInputStream(fontFile);
         Font font = Font.createFont(Font.TRUETYPE_FONT, is);
-        font = font.deriveFont(Font.PLAIN, size);
+        if(this.bold){
+            font = font.deriveFont(Font.BOLD, size);
+        }
+        if(italic){
+            font = font.deriveFont(Font.ITALIC, size);
+        }
+        if(italic && bold){
+            font = font.deriveFont(Font.BOLD + Font.ITALIC, size);
+        }
+
+        if(!italic && !bold){
+            font = font.deriveFont(Font.PLAIN, size);
+        }
 
         return createFontMetrics(font, size, glyphs, argb, antiAlias);
     }
@@ -151,6 +189,9 @@ public class BitmapFontCreator
             double yPos = graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphPosition(charIndex).getY();
 
             int glyphWidth = r2d.getBounds().width;
+            int[] charPos = new int[2];
+            charPos[0] = x;
+            charPos[1] = y;
             if (charNum > this.MAX_CHARS_PER_LINE) {
                 charNum = 0;
                 x = 0;
@@ -164,9 +205,7 @@ public class BitmapFontCreator
             String ASCIICode = Integer.toString(nameASCII);
             int charWidth = (int)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphVisualBounds(charIndex).getBounds2D().getWidth();
             int charHeight = (int)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getBounds2D().getHeight();
-            int[] charPos = new int[2];
-            charPos[0] = x;
-            charPos[1] = (int)yPos;
+
             double charLeftBearing = (double)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getLSB();
             double charRightBearing = (double)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getRSB();
 
@@ -194,8 +233,10 @@ public class BitmapFontCreator
             fontType = "Italic";
         }
 
+        int jsonWidth = 256;
+        int jsonHeight = 256;
 
-        BitmapFont bitmapFont = new BitmapFont(font.getName(), image, size, fontType, chars);
+        BitmapFont bitmapFont = new BitmapFont(jsonWidth, jsonHeight, font.getName(), image, size, fontType, chars);
         return bitmapFont;
     }
 

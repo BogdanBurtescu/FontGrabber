@@ -2,10 +2,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.awt.image.BufferedImage;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
 
 public class BitmapFont {
 
@@ -29,7 +26,10 @@ public class BitmapFont {
     @JsonProperty("chars")
     private ArrayList<Glyph> chars = new ArrayList<>();
 
-    public BitmapFont(String name, BufferedImage bitmap, int size, String type, ArrayList<Glyph> chars) {
+    public BitmapFont(int width, int height, String name, BufferedImage bitmap, int size, String type, ArrayList<Glyph> chars) {
+
+        this.width = width;
+        this.height = height;
         this.name = name;
         this.bitmap = bitmap;
         this.size = size;
