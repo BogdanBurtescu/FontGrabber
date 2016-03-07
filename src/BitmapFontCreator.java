@@ -20,6 +20,9 @@ public class BitmapFontCreator
     @Option(name="-f", aliases={"--font","--ttf"}, usage="TTF-file to create bitmap font from", required=true)
     private String ttf;
 
+    @Option(name="-fN", aliases={"--familyName"}, usage="New family name for font", required=true)
+    private String familyName;
+
     @Option(name="-s", aliases={"--size"}, usage="Size to render font in (pixels)", required=true)
     private int size = -1;
 
@@ -103,7 +106,7 @@ public class BitmapFontCreator
         File file = new File(ttf);
         String fileName = file.getName().substring(0, file.getName().lastIndexOf("."));
 
-        File resultDirectory = new File(fileName + size + this.exportNameComponent);
+        File resultDirectory = new File(familyName + size + this.exportNameComponent);
         if(!resultDirectory.exists())
         {
             boolean result = false;
@@ -120,13 +123,13 @@ public class BitmapFontCreator
         }
 
 
-        System.out.println("Generating " + outDir + File.separator + resultDirectory.getName() + File.separator + fileName + size + this.exportNameComponent + ".png");
-        ImageIO.write(font.getImage(), "png", new FileOutputStream(new File(outDir + File.separator + resultDirectory.getName() + File.separator+ fileName + size + this.exportNameComponent + ".png")));
+        System.out.println("Generating " + outDir + File.separator + resultDirectory.getName() + File.separator + familyName + size + this.exportNameComponent + ".png");
+        ImageIO.write(font.getImage(), "png", new FileOutputStream(new File(outDir + File.separator + resultDirectory.getName() + File.separator+ familyName + size + this.exportNameComponent + ".png")));
 
-        System.out.println("Generating " + outDir + File.separator + resultDirectory.getName() + File.separator + fileName + size  + this.exportNameComponent + ".json");
+        System.out.println("Generating " + outDir + File.separator + resultDirectory.getName() + File.separator + familyName + size  + this.exportNameComponent + ".json");
         ObjectMapper mapper = new ObjectMapper();
         mapper.enable(SerializationFeature.INDENT_OUTPUT);
-        mapper.writeValue(new File(outDir + File.separator + resultDirectory.getName() + File.separator + fileName + size + this.exportNameComponent + ".json"), font);
+        mapper.writeValue(new File(outDir + File.separator + resultDirectory.getName() + File.separator + familyName + size + this.exportNameComponent + ".json"), font);
         return font;
     }
 
@@ -189,6 +192,7 @@ public class BitmapFontCreator
             double yPos = graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphPosition(charIndex).getY();
 
             int glyphWidth = r2d.getBounds().width;
+
             int[] charPos = new int[2];
             charPos[0] = x;
             charPos[1] = y;
@@ -203,13 +207,13 @@ public class BitmapFontCreator
             int nameASCII = (int) glyph;
             String nameHex = String.format("%04x", (int) glyph);
             String ASCIICode = Integer.toString(nameASCII);
-            int charWidth = (int)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphVisualBounds(charIndex).getBounds2D().getWidth();
-            int charHeight = (int)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getBounds2D().getHeight();
 
             double charLeftBearing = (double)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getLSB();
-            double charRightBearing = (double)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getRSB();
+            double charRightBearing = Math.ceil((double)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getRSB());
 
-
+            int charWidth = (int)(graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getBounds2D().getWidth());
+            int charHeight = (int)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getBounds2D().getHeight();
+            System.out.println(graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getBounds2D().getWidth());
             Glyph arrayGlyph = new Glyph(nameHex, ASCIICode, charWidth, charHeight, charPos, 0 ,0 ,charLeftBearing, charRightBearing);
             chars.add(arrayGlyph);
 
@@ -236,7 +240,7 @@ public class BitmapFontCreator
         int jsonWidth = 256;
         int jsonHeight = 256;
 
-        BitmapFont bitmapFont = new BitmapFont(jsonWidth, jsonHeight, font.getName(), image, size, fontType, chars);
+        BitmapFont bitmapFont = new BitmapFont(jsonWidth, jsonHeight, familyName + size + this.exportNameComponent, image, size, fontType, chars);
         return bitmapFont;
     }
 
