@@ -7,10 +7,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="org.apache.servicemix.bundles:org.apache.servicemix.bundles.xmlgraphics-commons:2.1_1" level="project" />
-    <orderEntry type="library" name="org.apache.servicemix.bundles:org.apache.servicemix.bundles.fop:2.1_1" level="project" />
-    <orderEntry type="library" name="args4j-2.0.21" level="project" />
-    <orderEntry type="library" name="org.apache.ant:ant:1.7.0" level="project" />
-    <orderEntry type="library" name="com.cedarsoftware:json-io:4.3.1" level="project" />
+    <orderEntry type="library" exported="" name="org.apache.servicemix.bundles:org.apache.servicemix.bundles.xmlgraphics-commons:2.1_1" level="project" />
+    <orderEntry type="library" exported="" name="org.apache.servicemix.bundles:org.apache.servicemix.bundles.fop:2.1_1" level="project" />
+    <orderEntry type="library" exported="" name="args4j-2.0.21" level="project" />
+    <orderEntry type="library" exported="" name="org.apache.ant:ant:1.7.0" level="project" />
+    <orderEntry type="library" exported="" name="com.cedarsoftware:json-io:4.3.1" level="project" />
+    <orderEntry type="library" exported="" name="qtjambi" level="project" />
+    <orderEntry type="library" name="qtjambi-src" level="project" />
   </component>
 </module>

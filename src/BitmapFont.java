@@ -14,6 +14,7 @@ public class BitmapFont {
 
     @JsonProperty("height")
     private int height;
+
     @JsonProperty("size")
     private int size;
 

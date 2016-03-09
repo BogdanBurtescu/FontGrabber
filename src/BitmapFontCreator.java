@@ -1,12 +1,18 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import com.trolltech.qt.gui.QFont;
+import com.trolltech.qt.gui.QFontMetrics;
+import jdk.nashorn.tools.Shell;
 import org.kohsuke.args4j.Argument;
 import org.kohsuke.args4j.CmdLineException;
 import org.kohsuke.args4j.CmdLineParser;
 import org.kohsuke.args4j.Option;
-
+import sun.misc.GC;
 import javax.imageio.ImageIO;
 import java.awt.*;
+import java.awt.font.GlyphMetrics;
+import java.awt.font.GlyphVector;
+import java.awt.font.LineMetrics;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.io.*;
@@ -194,8 +200,7 @@ public class BitmapFontCreator
             int glyphWidth = r2d.getBounds().width;
 
             int[] charPos = new int[2];
-            charPos[0] = x;
-            charPos[1] = y;
+
             if (charNum > this.MAX_CHARS_PER_LINE) {
                 charNum = 0;
                 x = 0;
@@ -208,17 +213,25 @@ public class BitmapFontCreator
             String nameHex = String.format("%04x", (int) glyph);
             String ASCIICode = Integer.toString(nameASCII);
 
-            double charLeftBearing = (double)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getLSB();
+            double charLeftBearing = Math.ceil((double)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getLSB());
             double charRightBearing = Math.ceil((double)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getRSB());
 
-            int charWidth = (int)(graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getBounds2D().getWidth());
-            int charHeight = (int)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getBounds2D().getHeight();
-            System.out.println(graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getBounds2D().getWidth());
-            Glyph arrayGlyph = new Glyph(nameHex, ASCIICode, charWidth, charHeight, charPos, 0 ,0 ,charLeftBearing, charRightBearing);
+
+
+            charPos[0] = x;
+            charPos[1] = y - ascent;
+
+
+            int charWidth = (int)graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getBounds2D().getBounds().getWidth();
+            int charHeight = (int)Math.ceil(graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getBounds2D().getBounds().getHeight());
+//            System.out.println(ASCIICode + "    " +  " Y COORD: " + graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphVisualBounds(charIndex).getBounds2D().getBounds().getY() + " HEIGHT: " + Math.ceil(graphics.getFont().createGlyphVector(fm.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex).getBounds2D().getBounds().getHeight()));
+            Glyph arrayGlyph = new Glyph(nameHex, ASCIICode, charWidth, charHeight, charPos, 0 ,0 ,charLeftBearing, charRightBearing, (int)r2d.getHeight());
             chars.add(arrayGlyph);
-
-
             x += glyphWidth;
+
+            System.out.println(ASCIICode + "    " + " LEFT_BEARING: " + charLeftBearing + " RIGHT_BEARING: " + charRightBearing + "    " + charWidth + "    " + " MAX HEIGHT: " + (fm.getMaxAscent() + fm.getMaxDescent()) + " ASCENT: " + fm.getAscent() + " DESCENT: " + fm.getDescent()   + " CHAR HEIGHT: " + charHeight + " MONO WIDTH: " + (charLeftBearing + charWidth + charRightBearing));
+
+
         }
 
         String fontType = null;
@@ -241,6 +254,10 @@ public class BitmapFontCreator
         int jsonHeight = 256;
 
         BitmapFont bitmapFont = new BitmapFont(jsonWidth, jsonHeight, familyName + size + this.exportNameComponent, image, size, fontType, chars);
+        System.out.println();
+        LineMetrics lineMetrics1 = font.getLineMetrics("W", graphics.getFontRenderContext());
+        LineMetrics lineMetrics2 = font.getLineMetrics(".", graphics.getFontRenderContext());
+
         return bitmapFont;
     }
 
