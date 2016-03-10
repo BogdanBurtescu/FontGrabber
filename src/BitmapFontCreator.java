@@ -108,7 +108,6 @@ public class BitmapFontCreator
 
 
 
-        File file = new File(ttf);
 
         File resultDirectory = new File(outDir + File.separator + familyName + size + this.exportNameComponent);
         if(!resultDirectory.exists())
@@ -310,7 +309,7 @@ public class BitmapFontCreator
             charNum++;
 
             int nameASCII = (int) glyph;
-            String nameHex = String.format("%04x", (int) glyph);
+            String nameHex = String.format("%02x", (int) glyph);
             String ASCIICode = Integer.toString(nameASCII);
 
             double charLeftBearing = Math.ceil((double) individualGlyphMetrics.getLSB());
