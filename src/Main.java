@@ -11,7 +11,12 @@ public class Main {
 
 
 
-        bitmapFontCreator.writeFonts(args);
-
+        try {
+            bitmapFontCreator.writeFonts(args);
+        }
+        catch (Exception e) {
+            System.err.println("Unable to create bitmap font.");
+            System.err.println(e.getMessage());
+        }
     }
 }
