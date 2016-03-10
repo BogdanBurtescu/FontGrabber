@@ -109,9 +109,8 @@ public class BitmapFontCreator
 
 
         File file = new File(ttf);
-        String fileName = file.getName().substring(0, file.getName().lastIndexOf("."));
 
-        File resultDirectory = new File(familyName + size + this.exportNameComponent);
+        File resultDirectory = new File(outDir + File.separator + familyName + size + this.exportNameComponent);
         if(!resultDirectory.exists())
         {
             boolean result = false;
@@ -120,7 +119,6 @@ public class BitmapFontCreator
                 resultDirectory.mkdir();
                 result = true;
             }catch (SecurityException se){
-
             }
             if(result){
                 System.out.println("Directory " + resultDirectory.getName() + " has been created.");
@@ -128,7 +126,9 @@ public class BitmapFontCreator
         }
 
 
+
         System.out.println("Generating " + outDir + File.separator + resultDirectory.getName() + File.separator + familyName + size + this.exportNameComponent + ".png");
+
         ImageIO.write(font.getImage(), "png", new FileOutputStream(new File(outDir + File.separator + resultDirectory.getName() + File.separator+ familyName + size + this.exportNameComponent + ".png")));
 
         System.out.println("Generating " + outDir + File.separator + resultDirectory.getName() + File.separator + familyName + sizeForMetrics  + this.exportNameComponent + ".json");
