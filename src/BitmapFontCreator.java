@@ -1,3 +1,5 @@
+import com.badlogic.gdx.graphics.g2d.freetype.FreeType;
+import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import org.kohsuke.args4j.Argument;
@@ -146,7 +148,6 @@ public class BitmapFontCreator
         if(this.bold){
             font = font.deriveFont(Font.BOLD, size);
             fontForMetricsCalculations = font.deriveFont(Font.BOLD, sizeForMetrics);
-
         }
         if(italic){
             font = font.deriveFont(Font.ITALIC, size);
@@ -171,7 +172,7 @@ public class BitmapFontCreator
     private BitmapFont createFontMetrics(Font font, Font fontForMetricsCalculations, int size, String glyphs, int argb, boolean antiAlias){
 
         BufferedImage pngImage = this._createPNG(glyphs, font);
-        ArrayList<Glyph> chars = this._generateCharMetrics(fontForMetricsCalculations, glyphs);
+        ArrayList<Glyph> chars = this._generateCharMetrics(font, glyphs);
 
         String fontType = null;
         if(font.isBold())
@@ -329,6 +330,9 @@ public class BitmapFontCreator
             x += glyphWidth;
 
         }
+
+
+
         return chars;
     }
 }

@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0f7f9b27-12a8-48bf-9d9d-6bece3095d4a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FontGrabber.iml" afterPath="$PROJECT_DIR$/FontGrabber.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BitmapFontCreator.java" afterPath="$PROJECT_DIR$/src/BitmapFontCreator.java" />
     </list>
     <ignored path="FontGrabber.iws" />
@@ -25,6 +26,29 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="FreeType.class" pinned="false" current-in-tab="true">
+              <entry file="jar://$USER_HOME$/Desktop/gdx-freetype.jar!/com/badlogic/gdx/graphics/g2d/freetype/FreeType.class">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state vertical-scroll-proportion="0.059594754">
+                    <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+                    <folding>
+                      <element signature="e#19188#19189#0" expanded="true" />
+                      <element signature="e#19226#19227#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="FontGrabber" />
@@ -34,8 +58,8 @@
       <file leaf-file-name="BitmapFontCreator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BitmapFontCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.4705882">
-              <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.794118">
+              <caret line="178" column="9" selection-start-line="178" selection-start-column="9" selection-end-line="178" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,11 +67,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Liberation100Regular.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/artifacts/FontGrabber_jar/Liberation100Regular/Liberation100Regular.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Liberation13Regular.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/out/artifacts/FontGrabber_jar/Liberation100Regular/Liberation13Regular.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-104.86667">
-              <caret line="2999" column="23" selection-start-line="2999" selection-start-column="23" selection-end-line="2999" selection-end-column="23" />
+            <state vertical-scroll-proportion="-4.866667">
+              <caret line="2879" column="24" selection-start-line="2879" selection-start-column="24" selection-end-line="2879" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -56,8 +87,8 @@
       <file leaf-file-name="Liberation12Regular.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/out/artifacts/FontGrabber_jar/Liberation100Regular/Liberation12Regular.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.310412">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.034246575">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -118,10 +149,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="58" />
-    <option name="width" value="1682" />
-    <option name="height" value="990" />
+    <option name="x" value="1679" />
+    <option name="width" value="1922" />
+    <option name="height" value="1081" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -259,7 +289,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/qtjambi-src.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/gdx-freetype.jar!/" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
@@ -727,29 +757,29 @@
       <workItem from="1457202510163" duration="8858000" />
       <workItem from="1457341623175" duration="7193000" />
       <workItem from="1457427321949" duration="13089000" />
-      <workItem from="1457443502900" duration="37095000" />
+      <workItem from="1457443502900" duration="43229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133549000" />
+    <option name="totallyTimeSpent" value="139683000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="58" width="1682" height="990" extended-state="6" />
+    <frame x="1679" y="0" width="1922" height="1081" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.49754602" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4071618" sideWeight="0.4855372" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.51411045" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15995763" sideWeight="0.51604277" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26438355" sideWeight="0.49107143" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.48588958" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15995763" sideWeight="0.48395723" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20490797" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17860962" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1141,28 +1171,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/Desktop/gdx-freetype.jar!/com/badlogic/gdx/graphics/g2d/freetype/FreeType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.059594754">
+          <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+          <folding>
+            <element signature="e#19188#19189#0" expanded="true" />
+            <element signature="e#19226#19227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/out/artifacts/FontGrabber_jar/Liberation100Regular/Liberation13Regular.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-104.86667">
-          <caret line="2999" column="23" selection-start-line="2999" selection-start-column="23" selection-end-line="2999" selection-end-column="23" />
+        <state vertical-scroll-proportion="-4.866667">
+          <caret line="2879" column="24" selection-start-line="2879" selection-start-column="24" selection-end-line="2879" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BitmapFontCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4705882">
-          <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.794118">
+          <caret line="178" column="9" selection-start-line="178" selection-start-column="9" selection-end-line="178" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/FontGrabber_jar/Liberation100Regular/Liberation100Regular.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/out/artifacts/FontGrabber_jar/Liberation100Regular/Liberation12Regular.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.310412">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.034246575">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1233,7 +1279,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>qtjambi-src</last-edited>
+          <last-edited>gdx-freetype</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

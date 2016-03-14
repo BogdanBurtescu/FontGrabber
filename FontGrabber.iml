@@ -14,5 +14,6 @@
     <orderEntry type="library" exported="" name="com.cedarsoftware:json-io:4.3.1" level="project" />
     <orderEntry type="library" exported="" name="qtjambi" level="project" />
     <orderEntry type="library" name="qtjambi-src" level="project" />
+    <orderEntry type="library" name="gdx-freetype" level="project" />
   </component>
 </module>
