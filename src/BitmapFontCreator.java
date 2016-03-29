@@ -45,11 +45,20 @@ public class BitmapFontCreator
     @Option(name="-b", aliases={"--bold"}, usage="boolean to set bold font", required=false)
     private boolean bold;
 
-    @Option(name="-i", aliases={"--italic"}, usage="boolean to set italic font", required=false)
+    @Option(name="-i", aliases={"--italic"}, usage="boolean to set italic font in png", required=false)
     private boolean italic;
 
-    @Option(name="-r", aliases={"--regular"}, usage="boolean to set regular font", required=false)
+    @Option(name="-r", aliases={"--regular"}, usage="boolean to set regular font in png", required=false)
     private boolean regular;
+
+    @Option(name="-bId", aliases={"--boldId"}, usage="boolean to set bold font identification in json metrics", required=false)
+    private boolean boldId;
+
+    @Option(name="-iId", aliases={"--italicId"}, usage="boolean to set italic font identification in json metrics", required=false)
+    private boolean italicId;
+
+    @Option(name="-rId", aliases={"--regularId"}, usage="boolean to set regular font identification in json metrics", required=false)
+    private boolean regularId;
 
     @Option(name="-a", aliases={"--antialias"}, usage="Render font with anti alias enabled", required=false)
     private boolean antiAlias = false;
@@ -92,16 +101,16 @@ public class BitmapFontCreator
             glyphs = getFileAsString(glyphFile);
         }
 
-        if(bold){
+        if(boldId){
             this.exportNameComponent = "Bold";
         }
-        if(italic){
+        if(italicId){
             this.exportNameComponent = "Italic";
         }
-        if(bold && italic){
+        if(boldId && italicId){
             this.exportNameComponent = "BoldItalic";
         }
-        if(!bold && !italic){
+        if(!boldId && !italicId){
             this.exportNameComponent = "Regular";
         }
 
@@ -181,20 +190,22 @@ public class BitmapFontCreator
         ArrayList<Glyph> chars = this._generateCharMetrics(font, glyphs);
 
         String fontType = null;
-        if(font.isBold())
+        if(boldId)
         {
             fontType = "Bold";
         }
 
-        if(font.isPlain())
+        if(!boldId && !italicId)
         {
             fontType = "Regular";
         }
 
-        if(font.isItalic())
+        if(italicId)
         {
             fontType = "Italic";
         }
+
+
 
         int jsonWidth = 256;
         int jsonHeight = 256;
@@ -321,14 +332,14 @@ public class BitmapFontCreator
             String nameHex = String.format("%02x", (int) glyph);
             String ASCIICode = Integer.toString(nameASCII);
 
-            double charLeftBearing = (double) individualGlyphMetrics.getLSB();
-            double charRightBearing = Math.ceil((double) individualGlyphMetrics.getRSB());
+            double charLeftBearing = individualGlyphMetrics.getLSB();
+            double charRightBearing = individualGlyphMetrics.getRSB();
 
             charPos[0] = x;
             charPos[1] = y - ascent;
 
-            int charWidth = (int) individualGlyphMetrics.getBounds2D().getBounds().getWidth();
-            int charHeight = (int) Math.ceil(individualGlyphMetrics.getBounds2D().getBounds().getHeight());
+            int charWidth = (int)(individualGlyphMetrics.getBounds2D().getMaxX() - individualGlyphMetrics.getBounds2D().getMinX());
+            int charHeight = (int) (individualGlyphMetrics.getBounds2D().getMaxY() - individualGlyphMetrics.getBounds2D().getMinY());
 
             System.out.println(glyphList.charAt(i) + "  MIN Y: " + individualGlyphMetrics.getBounds2D().getMinY() + "  MAX Y: " + individualGlyphMetrics.getBounds2D().getMaxY() + "    HEIGHT: " + individualGlyphMetrics.getBounds2D().getHeight() + "    RIGHT BEARING: " + individualGlyphMetrics.getRSB() + "  LEFT BEARING: " + individualGlyphMetrics.getLSB() + "   FONT ASCENT: " + graphics2.getFontMetrics(font).getAscent() + "     CHAR WIDTH: " + (individualGlyphMetrics.getBounds2D().getMaxX() - individualGlyphMetrics.getBounds2D().getMinX()) + "   ADVANCE: "  + individualGlyphMetrics.getAdvanceX() );
 

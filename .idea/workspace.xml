@@ -7,15 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f7f9b27-12a8-48bf-9d9d-6bece3095d4a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FontGrabber_jar/FontGrabber.jar" afterPath="$PROJECT_DIR$/out/artifacts/FontGrabber_jar/FontGrabber.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FontGrabber/BitmapFontCreator.class" afterPath="$PROJECT_DIR$/out/production/FontGrabber/BitmapFontCreator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FontGrabber/Main.class" afterPath="$PROJECT_DIR$/out/production/FontGrabber/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/FontGrabber_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FontGrabber_jar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FontGrabber.iml" afterPath="$PROJECT_DIR$/FontGrabber.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BitmapFontCreator.java" afterPath="$PROJECT_DIR$/src/BitmapFontCreator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Glyph.java" afterPath="$PROJECT_DIR$/src/Glyph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
     </list>
     <ignored path="FontGrabber.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BitmapFontCreator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BitmapFontCreator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BitmapFontCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5091938">
-              <caret line="330" column="107" selection-start-line="330" selection-start-column="107" selection-end-line="330" selection-end-column="107" />
+            <state vertical-scroll-proportion="-5.4411764">
+              <caret line="333" column="0" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,21 +43,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Liberation32Regular.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/artifacts/FontGrabber_jar/Liberation32Regular/Liberation32Regular.json">
+      <file leaf-file-name="LiberationMono32Bold.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/artifacts/FontGrabber_jar/LiberationMono32Bold/LiberationMono32Bold.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-103.03333">
-              <caret line="1233" column="21" selection-start-line="1233" selection-start-column="21" selection-end-line="1233" selection-end-column="21" />
+            <state vertical-scroll-proportion="-5.8333335">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Glyph.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Liberation32Regular.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/artifacts/FontGrabber_jar/Liberation32Regular/Liberation32Regular.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="8.633333">
+              <caret line="1126" column="21" selection-start-line="1126" selection-start-column="21" selection-end-line="1126" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Glyph.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Glyph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.32523617">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -111,19 +114,6 @@
             <state vertical-scroll-proportion="-11.71875">
               <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FontMetrics.class" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-1.8.0.71-2.b15.el7_2.x86_64/jre/lib/rt.jar!/java/awt/FontMetrics.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.09375">
-              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-              <folding>
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1034#1035#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -195,9 +185,10 @@
         <option value="$PROJECT_DIR$/src/FreetypeBuild.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/GlyphVectorPCL.java" />
-        <option value="$PROJECT_DIR$/src/Glyph.java" />
         <option value="$PROJECT_DIR$/out/artifacts/FontGrabber_jar/Liberation32Regular/Liberation32Regular.json" />
+        <option value="$PROJECT_DIR$/out/artifacts/FontGrabber_jar/LiberationMono32Bold/LiberationMono32Bold.json" />
         <option value="$PROJECT_DIR$/src/BitmapFontCreator.java" />
+        <option value="$PROJECT_DIR$/src/Glyph.java" />
       </list>
     </option>
   </component>
@@ -340,7 +331,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Liberation32Regular" />
+              <option name="myItemId" value="LiberationMono32Bold" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -827,12 +818,12 @@
       <workItem from="1457341623175" duration="7193000" />
       <workItem from="1457427321949" duration="13089000" />
       <workItem from="1457443502900" duration="58552000" />
-      <workItem from="1457966695085" duration="39799000" />
+      <workItem from="1457966695085" duration="41274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194805000" />
+    <option name="totallyTimeSpent" value="196280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1679" y="0" width="1922" height="1081" extended-state="6" />
@@ -1307,29 +1298,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Glyph.java">
+    <entry file="file://$PROJECT_DIR$/out/artifacts/FontGrabber_jar/Liberation32Regular/Liberation32Regular.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        <state vertical-scroll-proportion="8.633333">
+          <caret line="1126" column="21" selection-start-line="1126" selection-start-column="21" selection-end-line="1126" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/FontGrabber_jar/Liberation32Regular/Liberation32Regular.json">
+    <entry file="file://$PROJECT_DIR$/out/artifacts/FontGrabber_jar/LiberationMono32Bold/LiberationMono32Bold.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-103.03333">
-          <caret line="1233" column="21" selection-start-line="1233" selection-start-column="21" selection-end-line="1233" selection-end-column="21" />
+        <state vertical-scroll-proportion="-5.8333335">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BitmapFontCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5091938">
-          <caret line="330" column="107" selection-start-line="330" selection-start-column="107" selection-end-line="330" selection-end-column="107" />
+        <state vertical-scroll-proportion="-5.4411764">
+          <caret line="333" column="0" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Glyph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32523617">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
