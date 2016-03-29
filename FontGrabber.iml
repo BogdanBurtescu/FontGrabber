@@ -12,8 +12,7 @@
     <orderEntry type="library" exported="" name="args4j-2.0.21" level="project" />
     <orderEntry type="library" exported="" name="org.apache.ant:ant:1.7.0" level="project" />
     <orderEntry type="library" exported="" name="com.cedarsoftware:json-io:4.3.1" level="project" />
-    <orderEntry type="library" exported="" name="qtjambi" level="project" />
-    <orderEntry type="library" name="qtjambi-src" level="project" />
-    <orderEntry type="library" name="gdx-freetype" level="project" />
+    <orderEntry type="library" exported="" name="com.badlogicgames.gdx:gdx-freetype:1.9.2" level="project" />
+    <orderEntry type="library" name="slick" level="project" />
   </component>
 </module>

@@ -1,15 +1,21 @@
 import com.badlogic.gdx.graphics.g2d.freetype.FreeType;
-import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import org.kohsuke.args4j.Argument;
 import org.kohsuke.args4j.CmdLineException;
 import org.kohsuke.args4j.CmdLineParser;
 import org.kohsuke.args4j.Option;
+import org.newdawn.slick.UnicodeFont;
+import sun.font.CoreMetrics;
+import sun.font.FontLineMetrics;
+import sun.font.StandardGlyphVector;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.font.GlyphMetrics;
+import java.awt.font.GlyphVector;
+import java.awt.font.LineMetrics;
+import java.awt.font.TextLayout;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.io.*;
@@ -145,7 +151,7 @@ public class BitmapFontCreator
 
         Font font = Font.createFont(Font.TRUETYPE_FONT, is);
         Font fontForMetricsCalculations = Font.createFont(Font.TRUETYPE_FONT, isFontForMEtrics);
-        if(this.bold){
+        if(bold){
             font = font.deriveFont(Font.BOLD, size);
             fontForMetricsCalculations = font.deriveFont(Font.BOLD, sizeForMetrics);
         }
@@ -296,7 +302,9 @@ public class BitmapFontCreator
                     graphics2.getFont().createGlyphVector(fontMetricsJSON.getFontRenderContext(), glyphList).getGlyphCharIndex(i);
 
             GlyphMetrics individualGlyphMetrics =
-                    graphics2.getFont().createGlyphVector(fontMetricsJSON.getFontRenderContext(), glyphList).getGlyphMetrics(charIndex);
+                    graphics2.getFont().createGlyphVector(fontMetricsJSON.getFontRenderContext(), glyphList).getGlyphMetrics(i);
+
+
 
             int glyphWidth = r2d.getBounds().width;
 
@@ -313,7 +321,7 @@ public class BitmapFontCreator
             String nameHex = String.format("%02x", (int) glyph);
             String ASCIICode = Integer.toString(nameASCII);
 
-            double charLeftBearing = Math.ceil((double) individualGlyphMetrics.getLSB());
+            double charLeftBearing = (double) individualGlyphMetrics.getLSB();
             double charRightBearing = Math.ceil((double) individualGlyphMetrics.getRSB());
 
             charPos[0] = x;
@@ -322,15 +330,29 @@ public class BitmapFontCreator
             int charWidth = (int) individualGlyphMetrics.getBounds2D().getBounds().getWidth();
             int charHeight = (int) Math.ceil(individualGlyphMetrics.getBounds2D().getBounds().getHeight());
 
+            System.out.println(glyphList.charAt(i) + "  MIN Y: " + individualGlyphMetrics.getBounds2D().getMinY() + "  MAX Y: " + individualGlyphMetrics.getBounds2D().getMaxY() + "    HEIGHT: " + individualGlyphMetrics.getBounds2D().getHeight() + "    RIGHT BEARING: " + individualGlyphMetrics.getRSB() + "  LEFT BEARING: " + individualGlyphMetrics.getLSB() + "   FONT ASCENT: " + graphics2.getFontMetrics(font).getAscent() + "     CHAR WIDTH: " + (individualGlyphMetrics.getBounds2D().getMaxX() - individualGlyphMetrics.getBounds2D().getMinX()) + "   ADVANCE: "  + individualGlyphMetrics.getAdvanceX() );
+
+            double maxY = individualGlyphMetrics.getBounds2D().getMaxY();
+            double minY = individualGlyphMetrics.getBounds2D().getMinY();
+
+            int glyphLogicalWidth = (int)individualGlyphMetrics.getAdvance();
+
+            int glyphAscent = (int)minY;
+            int glyphDescent = (int)maxY;
             Glyph arrayGlyph =
                     new Glyph(nameHex, ASCIICode, charWidth, charHeight, charPos,
-                              0, 0, charLeftBearing, charRightBearing, (int) r2d.getHeight());
+                            Math.abs(glyphAscent), glyphDescent, charLeftBearing, charRightBearing, (int) r2d.getHeight(), glyphLogicalWidth);
             chars.add(arrayGlyph);
 
+
             x += glyphWidth;
+//            System.out.println(ASCIICode + " LOGICAL WIDTH : " + individualGlyphMetrics.getAdvance() + " ADVANCE X: " + individualGlyphMetrics.getAdvanceX() + " LEFT BEARING: " + individualGlyphMetrics.getLSB() + " RIGHT BEARING: " + individualGlyphMetrics.getRSB() + " CHAR WIDTH: " + (individualGlyphMetrics.getBounds2D().getMaxX() - individualGlyphMetrics.getBounds2D().getMinX()) + " Bounds2D: " + individualGlyphMetrics.getBounds2D().getHeight() + " Bounds: " + individualGlyphMetrics.getBounds2D().getBounds().getHeight());
+
+
+
+
 
         }
-
 
 
         return chars;
