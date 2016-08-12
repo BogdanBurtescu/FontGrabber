@@ -1,10 +1,4 @@
 
-
-import com.badlogic.gdx.files.FileHandle;
-import com.badlogic.gdx.graphics.g2d.freetype.FreeType;
-import com.badlogic.gdx.graphics.g2d.freetype.FreetypeBuild;
-import com.badlogic.gdx.utils.SharedLibraryLoader;
-
 import java.awt.*;
 import java.io.IOException;
 

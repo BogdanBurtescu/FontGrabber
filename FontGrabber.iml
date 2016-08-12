@@ -7,12 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="org.apache.servicemix.bundles:org.apache.servicemix.bundles.xmlgraphics-commons:2.1_1" level="project" />
-    <orderEntry type="library" exported="" name="org.apache.servicemix.bundles:org.apache.servicemix.bundles.fop:2.1_1" level="project" />
-    <orderEntry type="library" exported="" name="args4j-2.0.21" level="project" />
-    <orderEntry type="library" exported="" name="org.apache.ant:ant:1.7.0" level="project" />
-    <orderEntry type="library" exported="" name="com.cedarsoftware:json-io:4.3.1" level="project" />
-    <orderEntry type="library" exported="" name="com.badlogicgames.gdx:gdx-freetype:1.9.2" level="project" />
-    <orderEntry type="library" name="slick" level="project" />
+    <orderEntry type="library" name="FontGrabber" level="project" />
+    <orderEntry type="library" name="FontGrabber1" level="project" />
   </component>
 </module>

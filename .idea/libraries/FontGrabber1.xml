@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="FontGrabber1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/FontGrabber_jar/FontGrabber.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
