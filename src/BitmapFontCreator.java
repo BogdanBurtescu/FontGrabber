@@ -226,150 +226,155 @@ public class BitmapFontCreator
     }
 
 
-    private BufferedImage _createPNG(String glyphs, Font font)
-    {
-        final int verticalSpacing = 1;
-
-        FontMetrics fontMetricsPng = new Canvas().getFontMetrics(font);
-
-        final int ascent = fontMetricsPng.getAscent();
-        final int descent = fontMetricsPng.getDescent();
-
-        final int area = fontMetricsPng.stringWidth(glyphs) * (ascent + descent + verticalSpacing);
-        final int width = (int)Math.ceil(Math.sqrt(area)/2.5) << 2;
-        final int height = (ascent + descent + verticalSpacing) * glyphs.length()/ this.MAX_CHARS_PER_LINE;
-
-
-        GraphicsConfiguration gc = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice().getDefaultConfiguration();
-        BufferedImage image = gc.createCompatibleImage(width, height, Transparency.TRANSLUCENT);
-
-        Graphics2D graphics = (Graphics2D)image.getGraphics();
-        graphics.setColor(new Color((int)Long.parseLong(color, 16), true));
-        graphics.setFont(font);
-        graphics.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, antiAlias ? RenderingHints.VALUE_TEXT_ANTIALIAS_ON : RenderingHints.VALUE_TEXT_ANTIALIAS_OFF);
-
-
-        final int glyphCount = glyphs.length();
-        int x = 0;
-        int y = fontMetricsPng.getAscent();
-
-        String glyphList = "";
-        int charNum = 0;
-        for(int i = 0; i < glyphCount; i++) {
-            char glyph = glyphs.charAt(i);
-            String glyphString = Character.toString(glyph);
-            Rectangle2D r2d = fontMetricsPng.getStringBounds(glyphString, graphics);
-
-            glyphList += glyph;
-
-            int glyphWidth = r2d.getBounds().width;
-
-            if (charNum > this.MAX_CHARS_PER_LINE) {
-                charNum = 0;
-                x = 0;
-                y = y + fontMetricsPng.getAscent() + fontMetricsPng.getDescent() + verticalSpacing;
-            }
-            charNum++;
-            graphics.drawString(glyphString, x * this.HORIZ_CHAR_SEPARATOR, y);
-            x += glyphWidth;
-
-        }
-        return image;
-
-    }
-
-
 
 
     private GlyphImagePair _obtainGlyphImagePair(String glyphs, Font font)
     {
-        final int verticalSpacing = 1;
+        final int verticalSpacing = 10;
 
         FontMetrics fontMetricsPng = new Canvas().getFontMetrics(font);
 
         final int ascent = fontMetricsPng.getAscent();
+
         final int descent = fontMetricsPng.getDescent();
 
         final int area = fontMetricsPng.stringWidth(glyphs) * (ascent + descent + verticalSpacing);
+
         final int width = (int)Math.ceil(Math.sqrt(area)/2.5) << 2;
+
         final int height = (ascent + descent + verticalSpacing) * glyphs.length()/ this.MAX_CHARS_PER_LINE;
 
+        GraphicsConfiguration gc = GraphicsEnvironment
+                                    .getLocalGraphicsEnvironment()
+                                    .getDefaultScreenDevice()
+                                    .getDefaultConfiguration();
 
-        GraphicsConfiguration gc = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice().getDefaultConfiguration();
-        BufferedImage image = gc.createCompatibleImage(width, height, Transparency.TRANSLUCENT);
+        BufferedImage image = gc.createCompatibleImage(width,
+                                                       height,
+                                                       Transparency.TRANSLUCENT);
 
         Graphics2D graphics = (Graphics2D)image.getGraphics();
+
         graphics.setColor(new Color((int)Long.parseLong(color, 16), true));
+
         graphics.setFont(font);
-        graphics.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, antiAlias ? RenderingHints.VALUE_TEXT_ANTIALIAS_ON : RenderingHints.VALUE_TEXT_ANTIALIAS_OFF);
+        graphics.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING,
+                                  antiAlias ? RenderingHints.VALUE_TEXT_ANTIALIAS_ON : RenderingHints.VALUE_TEXT_ANTIALIAS_OFF);
 
 
         final int glyphCount = glyphs.length();
+
         int x = 0;
-        int y = fontMetricsPng.getAscent();
+        int y = 0;
 
-        String glyphList = "";
         int charNum = 0;
-
 
         ArrayList<Glyph> chars = new ArrayList<>();
 
 
         for(int i = 0; i < glyphCount; i++) {
+
             char glyph = glyphs.charAt(i);
+
             String glyphString = Character.toString(glyph);
+
             Rectangle2D r2d = fontMetricsPng.getStringBounds(glyphString, graphics);
 
-            glyphList += glyph;
-
             int glyphWidth = r2d.getBounds().width;
-            int glyphHeight = r2d.getBounds().height;
 
-            if (charNum > this.MAX_CHARS_PER_LINE) {
+            if (charNum > this.MAX_CHARS_PER_LINE)
+            {
                 charNum = 0;
                 x = 0;
-                y = y + fontMetricsPng.getAscent() + fontMetricsPng.getDescent() + verticalSpacing;
+                y += fontMetricsPng.getAscent() + fontMetricsPng.getDescent() + verticalSpacing;
             }
+
             charNum++;
+
             graphics.drawString(glyphString, x * this.HORIZ_CHAR_SEPARATOR, y);
 
 
-            GlyphMetrics individualGlyphMetrics =
-                    graphics.getFont().createGlyphVector(fontMetricsPng.getFontRenderContext(), glyphList).getGlyphMetrics(i);
-
-
-
+            GlyphMetrics individualGlyphMetrics = graphics
+                    .getFont()
+                    .createGlyphVector(fontMetricsPng.getFontRenderContext(), glyphs)
+                    .getGlyphMetrics(i);
 
             int[] charPos = new int[2];
-
-            charNum++;
+            charPos[0] = x * this.HORIZ_CHAR_SEPARATOR;
+            charPos[1] = y;
 
             int nameASCII = (int) glyph;
-            String nameHex = String.format("%02x", (int) glyph);
             String ASCIICode = Integer.toString(nameASCII);
 
-            double charLeftBearing = individualGlyphMetrics.getLSB();
-            double charRightBearing = individualGlyphMetrics.getRSB();
-
-            charPos[0] = x * this.HORIZ_CHAR_SEPARATOR;
-            charPos[1] = y - ascent;
-
-            int charWidth = (int)(individualGlyphMetrics.getBounds2D().getFrame().getWidth() + individualGlyphMetrics.getAdvance());
-            int charHeight = (int)(individualGlyphMetrics.getBounds2D().getFrame().getHeight() + individualGlyphMetrics.getAdvance());
+            String nameHex = String.format("%02x", (int) glyph);
 
 
-            double maxY = individualGlyphMetrics.getBounds2D().getMaxY();
-            double minY = individualGlyphMetrics.getBounds2D().getMinY();
+            GlyphMetrics glyphMetrics =
+                    new GlyphMetrics(individualGlyphMetrics.getAdvance(),
+                                     individualGlyphMetrics.getBounds2D(),
+                                     (byte)individualGlyphMetrics.getType());
 
-            int glyphLogicalWidth = (int)individualGlyphMetrics.getAdvance();
+            int charLeftBearing = (int)glyphMetrics.getLSB();
+            int charRightBearing = (int)glyphMetrics.getRSB();
 
-            int glyphAscent = (int)minY;
-            int glyphDescent = (int)maxY;
-            Glyph arrayGlyph =
-                    new Glyph(nameHex, ASCIICode, charWidth, charHeight, charPos,
-                            Math.abs(glyphAscent), glyphDescent, charLeftBearing, charRightBearing, (int) r2d.getHeight(), glyphLogicalWidth);
-            chars.add(arrayGlyph);
-            x += glyphWidth;
+            int charWidth = (int)glyphMetrics.getBounds2D().getWidth();
+            int charHeight = (int)glyphMetrics.getBounds2D().getHeight();
+
+            int glyphLogicalWidth = (int)glyphMetrics.getAdvance();
+
+            int glyphAscent = (int)glyphMetrics.getBounds2D().getMinY();
+            int glyphDescent = (int)glyphMetrics.getBounds2D().getMaxY();
+
+            Glyph finalGlyph = new Glyph(nameHex,
+                                         ASCIICode,
+                                         charWidth,
+                                         charHeight,
+                                         charPos,
+                                         glyphAscent,
+                                         glyphDescent,
+                                         charLeftBearing,
+                                         charRightBearing,
+                                         0,
+                                         glyphLogicalWidth);
+
+            chars.add(finalGlyph);
+
+            x += glyphMetrics.getAdvanceX() + this.HORIZ_CHAR_SEPARATOR;
+
+
+//
+//
+//
+//
+//            int[] charPos = new int[2];
+//
+//            charNum++;
+//
+//            int nameASCII = (int) glyph;
+//            String nameHex = String.format("%02x", (int) glyph);
+//            String ASCIICode = Integer.toString(nameASCII);
+//
+//            double charLeftBearing = individualGlyphMetrics.getLSB();
+//            double charRightBearing = individualGlyphMetrics.getRSB();
+//
+//            charPos[0] = x * this.HORIZ_CHAR_SEPARATOR;
+//            charPos[1] = y - ascent;
+//
+//            int charWidth = (int)(individualGlyphMetrics.getBounds2D().getFrame().getWidth() + individualGlyphMetrics.getAdvance());
+//            int charHeight = (int)(individualGlyphMetrics.getBounds2D().getFrame().getHeight() + individualGlyphMetrics.getAdvance());
+//
+//
+//            double maxY = individualGlyphMetrics.getBounds2D().getMaxY();
+//            double minY = individualGlyphMetrics.getBounds2D().getMinY();
+//
+//            int glyphLogicalWidth = (int)individualGlyphMetrics.getAdvance();
+//
+//            int glyphAscent = (int)minY;
+//            int glyphDescent = (int)maxY;
+//            Glyph arrayGlyph =
+//                    new Glyph(nameHex, ASCIICode, charWidth, charHeight, charPos,
+//                            Math.abs(glyphAscent), glyphDescent, charLeftBearing, charRightBearing, (int) r2d.getHeight(), glyphLogicalWidth);
+//            chars.add(arrayGlyph);
 
         }
 
