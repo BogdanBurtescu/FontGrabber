@@ -37,11 +37,11 @@ public class Glyph {
     public int[] charPosition;
 
     @JsonProperty("logicalWidth")
-    public int logicalWidth;
+    public double logicalWidth;
 
 
     public Glyph(String nameHex, String nameASCII, int charWidth, int charHeight, int[] charPosition, int charAscent, int charDescent,
-                 double charLeftBearing, double charRightBearing, int charMaxHeight, int logicalWidth) {
+                 double charLeftBearing, double charRightBearing, int charMaxHeight, double logicalWidth) {
         this.nameHex = nameHex;
         this.nameASCII = nameASCII;
         this.charWidth = charWidth;
