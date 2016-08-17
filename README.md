@@ -20,8 +20,6 @@ Usage: java -jar FontGrabber.jar [options...]
                           metrics
  -f (--font, --ttf) VAL : TTF-file to create bitmap font from
  -fN (--familyName) VAL : New family name for font
- -g (--glyphs) VAL      : path to a single line text file containing all
-                          glyphs/characters to render
  -i (--italic)          : boolean to set italic font in png
  -iId (--italicId)      : boolean to set italic font identification in json
                           metrics
