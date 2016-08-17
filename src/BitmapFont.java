@@ -18,24 +18,55 @@ public class BitmapFont {
     @JsonProperty("size")
     private int size;
 
-    @JsonProperty("name")
-    private String name;
+    @JsonProperty("imageFileName")
+    private String imageFileName;
 
     @JsonProperty("type")
     private String type;
 
+    @JsonProperty("isItalic")
+    private boolean isItalic;
+
+    @JsonProperty("isBold")
+    private boolean isBold;
+
+    @JsonProperty("monoLogicalWidth")
+    private double monoLogicalWidth;
+
+    @JsonProperty("charMaxHeight")
+    private double charMaxHeight;
+
+    @JsonProperty("familyName")
+    private String familyName;
+
     @JsonProperty("chars")
     private ArrayList<Glyph> chars = new ArrayList<>();
 
-    public BitmapFont(int width, int height, String name, BufferedImage bitmap, int size, String type, ArrayList<Glyph> chars) {
+    public BitmapFont(int width,
+                      int height,
+                      String imageFileName,
+                      String familyName,
+                      BufferedImage bitmap,
+                      int size,
+                      String type,
+                      boolean isItalic,
+                      boolean isBold,
+                      double monoLogicalWidth,
+                      double charMaxHeight,
+                      ArrayList<Glyph> chars) {
 
         this.width = width;
         this.height = height;
-        this.name = name;
+        this.imageFileName = imageFileName;
         this.bitmap = bitmap;
         this.size = size;
         this.type = type;
         this.chars = chars;
+        this.charMaxHeight = charMaxHeight;
+        this.isBold = isBold;
+        this.isItalic = isItalic;
+        this.monoLogicalWidth = monoLogicalWidth;
+        this.familyName = familyName;
     }
 
     @JsonIgnore
