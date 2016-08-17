@@ -12,7 +12,7 @@ Steps to successfully run the FontGrabber:
 3. Run the jar file as shown below.
 
 
-
+```
 Usage: java -jar FontGrabber.jar [options...]
  -a (--antialias)       : Render font with anti alias enabled
  -b (--bold)            : boolean to set bold font
@@ -31,7 +31,10 @@ Usage: java -jar FontGrabber.jar [options...]
                           metrics
  -s (--size) N          : Size to render font in (pixels)
  -sF (--sizemetrics) N  : Size to render font metrics in (pixels)
+ ```
  
  FontGrabber runner example:
  
+ ```
  java -jar FontGrabber.jar --antialias --ttf /home/bogdan/Projects/FontGrabber/LiberationMono-Regular.ttf --out /home/bogdan/Projects/FontGrabber/FontGrabber_jar/outputFonts --size 10 --sizemetrics 10 --regular --familyName Liberation
+```
