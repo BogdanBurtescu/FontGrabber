@@ -1,22 +1,15 @@
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-/**
- * Created by ats on 3/3/16.
- */
 public class Glyph {
-
-
-    @JsonProperty("nameHex")
-    public String nameHex;
 
     @JsonProperty("nameASCII")
     public String nameASCII;
 
-    @JsonProperty("charWidth")
-    public int charWidth;
+    @JsonProperty("glyphWidth")
+    public int glyphWidth;
 
-    @JsonProperty("charHeight")
-    public int charHeight;
+    @JsonProperty("glyphHeight")
+    public int glyphHeight;
 
     @JsonProperty("charAscent")
     public int charAscent;
@@ -33,25 +26,43 @@ public class Glyph {
     @JsonProperty("charMaxHeight")
     public int charMaxHeight;
 
-    @JsonProperty("charPosition")
-    public int[] charPosition;
+    @JsonProperty("charLogicalWidth")
+    public double charLogicalWidth;
 
-    @JsonProperty("logicalWidth")
-    public double logicalWidth;
+    @JsonProperty("glyphPosX")
+    public int glyphPosX;
+
+    @JsonProperty("glyphPosY")
+    public int glyphPosY;
+
+    @JsonProperty("character")
+    public String character;
 
 
-    public Glyph(String nameHex, String nameASCII, int charWidth, int charHeight, int[] charPosition, int charAscent, int charDescent,
-                 double charLeftBearing, double charRightBearing, int charMaxHeight, double logicalWidth) {
-        this.nameHex = nameHex;
+    public Glyph(String character,
+                 String nameASCII,
+                 int glyphWidth,
+                 int glyphHeight,
+                 int glyphPosX,
+                 int glyphPosY,
+                 int charAscent,
+                 int charDescent,
+                 double charLeftBearing,
+                 double charRightBearing,
+                 int charMaxHeight,
+                 double charLogicalWidth) {
+
         this.nameASCII = nameASCII;
-        this.charWidth = charWidth;
-        this.charHeight = charHeight;
+        this.glyphWidth = glyphWidth;
+        this.glyphHeight = glyphHeight;
         this.charAscent = charAscent;
         this.charDescent = charDescent;
         this.charLeftBearing = charLeftBearing;
         this.charRightBearing = charRightBearing;
-        this.charPosition = charPosition;
         this.charMaxHeight = charMaxHeight;
-        this.logicalWidth = logicalWidth;
+        this.charLogicalWidth = charLogicalWidth;
+        this.glyphPosX = glyphPosX;
+        this.glyphPosY = glyphPosY;
+        this.character = character;
     }
 }

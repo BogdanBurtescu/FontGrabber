@@ -9,10 +9,14 @@
     <list default="true" id="d4d67b07-fe65-4f81-a583-ce536e98f0ff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FontGrabber_jar/FontGrabber.jar" afterPath="$PROJECT_DIR$/FontGrabber_jar/FontGrabber.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FontGrabber_jar/outputFonts/Liberation10Regular/Liberation10Regular.png" afterPath="$PROJECT_DIR$/FontGrabber_jar/outputFonts/Liberation10Regular/Liberation10Regular.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FontGrabber/BitmapFont.class" afterPath="$PROJECT_DIR$/out/production/FontGrabber/BitmapFont.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FontGrabber/BitmapFontCreator.class" afterPath="$PROJECT_DIR$/out/production/FontGrabber/BitmapFontCreator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FontGrabber/Glyph.class" afterPath="$PROJECT_DIR$/out/production/FontGrabber/Glyph.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FontGrabber_jar/outputFonts/Liberation10Regular/Liberation10Regular.json" afterPath="$PROJECT_DIR$/FontGrabber_jar/outputFonts/Liberation10Regular/Liberation10Regular.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BitmapFont.java" afterPath="$PROJECT_DIR$/src/BitmapFont.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BitmapFontCreator.java" afterPath="$PROJECT_DIR$/src/BitmapFontCreator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Glyph.java" afterPath="$PROJECT_DIR$/src/Glyph.java" />
     </list>
     <ignored path="FontGrabber.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +40,8 @@
       <file leaf-file-name="BitmapFontCreator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BitmapFontCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
+            <state relative-caret-position="242">
+              <caret line="366" column="38" selection-start-line="366" selection-start-column="38" selection-end-line="366" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Character.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/java/jdk1.8.0_91/src.zip!/java/lang/Character.java">
+      <file leaf-file-name="Glyph.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Glyph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="5163" column="25" selection-start-line="5163" selection-start-column="25" selection-end-line="5163" selection-end-column="25" />
+            <state relative-caret-position="-180">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -79,6 +83,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BitmapFont.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BitmapFont.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -101,8 +115,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/GlyphImagePair.java" />
-        <option value="$PROJECT_DIR$/src/BitmapFont.java" />
         <option value="$PROJECT_DIR$/src/Glyph.java" />
+        <option value="$PROJECT_DIR$/src/BitmapFont.java" />
         <option value="$PROJECT_DIR$/src/BitmapFontCreator.java" />
       </list>
     </option>
@@ -472,7 +486,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25614974" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -605,22 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BitmapFont.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Glyph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/java/jdk1.8.0_91/src.zip!/java/lang/Character.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -629,10 +627,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Glyph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BitmapFont.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BitmapFontCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
+        <state relative-caret-position="242">
+          <caret line="366" column="38" selection-start-line="366" selection-start-column="38" selection-end-line="366" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
