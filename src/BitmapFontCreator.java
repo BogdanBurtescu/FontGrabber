@@ -72,7 +72,6 @@ public class BitmapFontCreator
 
     private String exportNameComponent;
 
-
     @Argument
     private List<String> arguments = new ArrayList<String>();
 
@@ -92,12 +91,16 @@ public class BitmapFontCreator
             argsParser.printUsage(System.err);
             return null;
         }
-        String glyphs;
-        if(glyphFile == null){
-            glyphs = getFileAsString("glyphs.txt");
-        }else{
-            glyphs = getFileAsString(glyphFile);
-        }
+
+//        String glyphs;
+//        if(glyphFile == null){
+//            glyphs = getFileAsString("glyphs.txt");
+//        }else{
+//            glyphs = getFileAsString(glyphFile);
+//        }
+
+        String glyphs = this._obtainGlyphsFromASCII(0, 256);
+
 
         if(boldId){
             this.exportNameComponent = "Bold";
@@ -115,12 +118,11 @@ public class BitmapFontCreator
 
         BitmapFont font;
         try {
-            font = createFonts(ttf, size, sizeForMetrics, glyphs, (int)Long.parseLong(color, 16), antiAlias);
+            font = createFonts(ttf, size, glyphs);
         }catch (Exception e){
             System.out.println("Unable to create font");
             return null;
         }
-
 
 
 
@@ -152,37 +154,31 @@ public class BitmapFontCreator
         return font;
     }
 
-    private BitmapFont createFonts(String fontFile, int size, int sizeForMetrics, String glyphs, int argb, boolean antiAlias) throws FontFormatException, IOException {
+    private BitmapFont createFonts(String fontFile, int size, String glyphs) throws FontFormatException, IOException {
         InputStream is = new FileInputStream(fontFile);
-        InputStream isFontForMEtrics = new FileInputStream(fontFile);
 
         Font font = Font.createFont(Font.TRUETYPE_FONT, is);
-        Font fontForMetricsCalculations = Font.createFont(Font.TRUETYPE_FONT, isFontForMEtrics);
         if(bold){
             font = font.deriveFont(Font.BOLD, size);
-            fontForMetricsCalculations = font.deriveFont(Font.BOLD, sizeForMetrics);
         }
         if(italic){
             font = font.deriveFont(Font.ITALIC, size);
-            fontForMetricsCalculations = font.deriveFont(Font.ITALIC, sizeForMetrics);
 
         }
         if(italic && bold){
             font = font.deriveFont(Font.BOLD + Font.ITALIC, size);
-            fontForMetricsCalculations = font.deriveFont(Font.BOLD + Font.ITALIC, sizeForMetrics);
 
         }
 
         if(!italic && !bold){
             font = font.deriveFont(Font.PLAIN, size);
-            fontForMetricsCalculations = font.deriveFont(Font.PLAIN, sizeForMetrics);
 
         }
 
-        return createFontMetrics(font, fontForMetricsCalculations, size, glyphs, argb, antiAlias);
+        return createFontMetrics(font, glyphs);
     }
 
-    private BitmapFont createFontMetrics(Font font, Font fontForMetricsCalculations, int size, String glyphs, int argb, boolean antiAlias){
+    private BitmapFont createFontMetrics(Font font, String glyphs){
 
 
         GlyphImagePair glyphImagePair = this._obtainGlyphImagePair(glyphs, font);
@@ -254,7 +250,7 @@ public class BitmapFontCreator
                 .getDefaultScreenDevice()
                 .getDefaultConfiguration();
 
-        BufferedImage image = gc.createCompatibleImage(800, 600, Transparency.TRANSLUCENT);
+        BufferedImage image = gc.createCompatibleImage(1000, 1000, Transparency.TRANSLUCENT);
 
         Graphics2D graphics = (Graphics2D)image.getGraphics();
         graphics.setColor(new Color((int)Long.parseLong(color, 16), true));
@@ -341,9 +337,26 @@ public class BitmapFontCreator
             chars.add(arrayGlyph);
 
             x += glyphWidth;
+
         }
 
         return new GlyphImagePair(image, chars);
+    }
+
+    private String _obtainGlyphsFromASCII(int iMinRangeASCII, int iMaxRangeASCII)
+    {
+
+        String glyphs = "";
+
+        for(int i = iMinRangeASCII; i <= iMaxRangeASCII; i++)
+        {
+            String glyphCharacter = Character.toString((char) i);
+            System.out.println(Character.toString((char) i));
+            glyphs += glyphCharacter;
+        }
+
+        return glyphs;
+
     }
 
 }

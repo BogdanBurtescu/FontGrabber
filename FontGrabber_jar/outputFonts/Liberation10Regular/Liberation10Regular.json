@@ -5,6 +5,402 @@
   "name" : "Liberation10Regular",
   "type" : "Regular",
   "chars" : [ {
+    "nameHex" : "00",
+    "nameASCII" : "0",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 0, 5 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "01",
+    "nameASCII" : "1",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 24, 5 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "02",
+    "nameASCII" : "2",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 48, 5 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "03",
+    "nameASCII" : "3",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 72, 5 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "04",
+    "nameASCII" : "4",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 96, 5 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "05",
+    "nameASCII" : "5",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 120, 5 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "06",
+    "nameASCII" : "6",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 144, 5 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "07",
+    "nameASCII" : "7",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 168, 5 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "08",
+    "nameASCII" : "8",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 192, 5 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "09",
+    "nameASCII" : "9",
+    "charWidth" : 2,
+    "charHeight" : 0,
+    "charAscent" : 0,
+    "charDescent" : 0,
+    "charLeftBearing" : -54.0,
+    "charRightBearing" : 54.0,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 0, 22 ],
+    "logicalWidth" : 0.0
+  }, {
+    "nameHex" : "0a",
+    "nameASCII" : "10",
+    "charWidth" : 2,
+    "charHeight" : 0,
+    "charAscent" : 0,
+    "charDescent" : 0,
+    "charLeftBearing" : -54.0,
+    "charRightBearing" : 54.0,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 0, 22 ],
+    "logicalWidth" : 0.0
+  }, {
+    "nameHex" : "0b",
+    "nameASCII" : "11",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 0, 18 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "0c",
+    "nameASCII" : "12",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 24, 18 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "0d",
+    "nameASCII" : "13",
+    "charWidth" : 2,
+    "charHeight" : 0,
+    "charAscent" : 0,
+    "charDescent" : 0,
+    "charLeftBearing" : -66.0,
+    "charRightBearing" : 66.0,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 48, 22 ],
+    "logicalWidth" : 0.0
+  }, {
+    "nameHex" : "0e",
+    "nameASCII" : "14",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 48, 18 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "0f",
+    "nameASCII" : "15",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 72, 18 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "10",
+    "nameASCII" : "16",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 96, 18 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "11",
+    "nameASCII" : "17",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 120, 18 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "12",
+    "nameASCII" : "18",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 0, 31 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "13",
+    "nameASCII" : "19",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 24, 31 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "14",
+    "nameASCII" : "20",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 48, 31 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "15",
+    "nameASCII" : "21",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 72, 31 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "16",
+    "nameASCII" : "22",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 96, 31 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "17",
+    "nameASCII" : "23",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 120, 31 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "18",
+    "nameASCII" : "24",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 144, 31 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "19",
+    "nameASCII" : "25",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 168, 31 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "1a",
+    "nameASCII" : "26",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 192, 31 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "1b",
+    "nameASCII" : "27",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 0, 44 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "1c",
+    "nameASCII" : "28",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 24, 44 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "1d",
+    "nameASCII" : "29",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 48, 44 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "1e",
+    "nameASCII" : "30",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 72, 44 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "1f",
+    "nameASCII" : "31",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 96, 44 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "20",
+    "nameASCII" : "32",
+    "charWidth" : 2,
+    "charHeight" : 0,
+    "charAscent" : 0,
+    "charDescent" : 0,
+    "charLeftBearing" : -174.0,
+    "charRightBearing" : 180.0,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 120, 48 ],
+    "logicalWidth" : 6.0
+  }, {
     "nameHex" : "21",
     "nameASCII" : "33",
     "charWidth" : 3,
@@ -14,7 +410,7 @@
     "charLeftBearing" : 2.515625,
     "charRightBearing" : 2.515625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 0, 2 ],
+    "charPosition" : [ 144, 41 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "22",
@@ -26,7 +422,7 @@
     "charLeftBearing" : 1.359375,
     "charRightBearing" : 1.359375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 24, 1 ],
+    "charPosition" : [ 168, 40 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "23",
@@ -38,7 +434,7 @@
     "charLeftBearing" : 0.265625,
     "charRightBearing" : 0.328125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 48, 2 ],
+    "charPosition" : [ 192, 41 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "24",
@@ -50,7 +446,7 @@
     "charLeftBearing" : 0.328125,
     "charRightBearing" : 0.390625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 72, 1 ],
+    "charPosition" : [ 0, 53 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "25",
@@ -62,7 +458,7 @@
     "charLeftBearing" : 0.0,
     "charRightBearing" : 0.0,
     "charMaxHeight" : 11,
-    "charPosition" : [ 96, 2 ],
+    "charPosition" : [ 24, 54 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "26",
@@ -74,7 +470,7 @@
     "charLeftBearing" : 0.203125,
     "charRightBearing" : 0.21875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 120, 2 ],
+    "charPosition" : [ 48, 54 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "27",
@@ -86,7 +482,7 @@
     "charLeftBearing" : 2.453125,
     "charRightBearing" : 2.453125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 144, 1 ],
+    "charPosition" : [ 72, 53 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "28",
@@ -98,7 +494,7 @@
     "charLeftBearing" : 1.671875,
     "charRightBearing" : 1.65625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 168, 1 ],
+    "charPosition" : [ 96, 53 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "29",
@@ -110,7 +506,7 @@
     "charLeftBearing" : 1.640625,
     "charRightBearing" : 1.671875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 192, 1 ],
+    "charPosition" : [ 120, 53 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "2a",
@@ -122,7 +518,7 @@
     "charLeftBearing" : 1.21875,
     "charRightBearing" : 1.21875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 0, 14 ],
+    "charPosition" : [ 144, 53 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "2b",
@@ -134,7 +530,7 @@
     "charLeftBearing" : 0.5625,
     "charRightBearing" : 0.578125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 24, 16 ],
+    "charPosition" : [ 168, 55 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "2c",
@@ -146,7 +542,7 @@
     "charLeftBearing" : 1.265625,
     "charRightBearing" : 2.609375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 48, 20 ],
+    "charPosition" : [ 192, 59 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "2d",
@@ -158,7 +554,7 @@
     "charLeftBearing" : 1.625,
     "charRightBearing" : 1.640625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 72, 18 ],
+    "charPosition" : [ 0, 70 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "2e",
@@ -170,7 +566,7 @@
     "charLeftBearing" : 2.421875,
     "charRightBearing" : 2.4375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 96, 20 ],
+    "charPosition" : [ 24, 72 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "2f",
@@ -182,7 +578,7 @@
     "charLeftBearing" : 0.5625,
     "charRightBearing" : 0.5625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 120, 14 ],
+    "charPosition" : [ 48, 66 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "30",
@@ -194,7 +590,7 @@
     "charLeftBearing" : 0.609375,
     "charRightBearing" : 0.609375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 144, 15 ],
+    "charPosition" : [ 72, 67 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "31",
@@ -206,7 +602,7 @@
     "charLeftBearing" : 0.71875,
     "charRightBearing" : 0.484375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 168, 15 ],
+    "charPosition" : [ 96, 67 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "32",
@@ -218,7 +614,7 @@
     "charLeftBearing" : 0.703125,
     "charRightBearing" : 0.703125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 192, 15 ],
+    "charPosition" : [ 120, 67 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "33",
@@ -230,7 +626,7 @@
     "charLeftBearing" : 0.625,
     "charRightBearing" : 0.640625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 0, 28 ],
+    "charPosition" : [ 144, 67 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "34",
@@ -242,7 +638,7 @@
     "charLeftBearing" : 0.5,
     "charRightBearing" : 0.5,
     "charMaxHeight" : 11,
-    "charPosition" : [ 24, 28 ],
+    "charPosition" : [ 168, 67 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "35",
@@ -254,7 +650,7 @@
     "charLeftBearing" : 0.625,
     "charRightBearing" : 0.640625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 48, 28 ],
+    "charPosition" : [ 192, 67 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "36",
@@ -266,7 +662,7 @@
     "charLeftBearing" : 0.734375,
     "charRightBearing" : 0.640625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 72, 28 ],
+    "charPosition" : [ 0, 80 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "37",
@@ -278,7 +674,7 @@
     "charLeftBearing" : 0.765625,
     "charRightBearing" : 0.78125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 96, 28 ],
+    "charPosition" : [ 24, 80 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "38",
@@ -290,7 +686,7 @@
     "charLeftBearing" : 0.65625,
     "charRightBearing" : 0.65625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 120, 28 ],
+    "charPosition" : [ 48, 80 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "39",
@@ -302,7 +698,7 @@
     "charLeftBearing" : 0.6875,
     "charRightBearing" : 0.6875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 144, 28 ],
+    "charPosition" : [ 72, 80 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "3a",
@@ -314,7 +710,7 @@
     "charLeftBearing" : 2.421875,
     "charRightBearing" : 2.4375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 168, 29 ],
+    "charPosition" : [ 96, 81 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "3b",
@@ -326,7 +722,7 @@
     "charLeftBearing" : 1.71875,
     "charRightBearing" : 2.15625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 192, 29 ],
+    "charPosition" : [ 120, 81 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "3c",
@@ -338,7 +734,7 @@
     "charLeftBearing" : 0.5625,
     "charRightBearing" : 0.578125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 0, 42 ],
+    "charPosition" : [ 144, 81 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "3d",
@@ -350,7 +746,7 @@
     "charLeftBearing" : 0.5625,
     "charRightBearing" : 0.578125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 24, 43 ],
+    "charPosition" : [ 168, 82 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "3e",
@@ -362,7 +758,7 @@
     "charLeftBearing" : 0.5625,
     "charRightBearing" : 0.578125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 48, 42 ],
+    "charPosition" : [ 192, 81 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "3f",
@@ -374,7 +770,7 @@
     "charLeftBearing" : 0.453125,
     "charRightBearing" : 0.765625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 72, 41 ],
+    "charPosition" : [ 0, 93 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "40",
@@ -386,7 +782,7 @@
     "charLeftBearing" : 0.21875,
     "charRightBearing" : 0.1875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 96, 40 ],
+    "charPosition" : [ 24, 92 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "41",
@@ -398,7 +794,7 @@
     "charLeftBearing" : 0.0,
     "charRightBearing" : 0.0,
     "charMaxHeight" : 11,
-    "charPosition" : [ 120, 41 ],
+    "charPosition" : [ 48, 93 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "42",
@@ -410,7 +806,7 @@
     "charLeftBearing" : 0.796875,
     "charRightBearing" : 0.375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 144, 41 ],
+    "charPosition" : [ 72, 93 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "43",
@@ -422,7 +818,7 @@
     "charLeftBearing" : 0.546875,
     "charRightBearing" : 0.421875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 168, 41 ],
+    "charPosition" : [ 96, 93 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "44",
@@ -434,7 +830,7 @@
     "charLeftBearing" : 0.796875,
     "charRightBearing" : 0.5,
     "charMaxHeight" : 11,
-    "charPosition" : [ 192, 41 ],
+    "charPosition" : [ 120, 93 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "45",
@@ -446,7 +842,7 @@
     "charLeftBearing" : 0.796875,
     "charRightBearing" : 0.515625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 0, 54 ],
+    "charPosition" : [ 144, 93 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "46",
@@ -458,7 +854,7 @@
     "charLeftBearing" : 0.953125,
     "charRightBearing" : 0.703125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 24, 54 ],
+    "charPosition" : [ 168, 93 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "47",
@@ -470,7 +866,7 @@
     "charLeftBearing" : 0.546875,
     "charRightBearing" : 0.609375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 48, 54 ],
+    "charPosition" : [ 192, 93 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "48",
@@ -482,7 +878,7 @@
     "charLeftBearing" : 0.796875,
     "charRightBearing" : 0.796875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 72, 54 ],
+    "charPosition" : [ 0, 106 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "49",
@@ -494,7 +890,7 @@
     "charLeftBearing" : 0.984375,
     "charRightBearing" : 1.0,
     "charMaxHeight" : 11,
-    "charPosition" : [ 96, 54 ],
+    "charPosition" : [ 24, 106 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "4a",
@@ -506,7 +902,7 @@
     "charLeftBearing" : 0.859375,
     "charRightBearing" : 1.1875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 120, 54 ],
+    "charPosition" : [ 48, 106 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "4b",
@@ -518,7 +914,7 @@
     "charLeftBearing" : 0.796875,
     "charRightBearing" : 0.015625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 144, 54 ],
+    "charPosition" : [ 72, 106 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "4c",
@@ -530,7 +926,7 @@
     "charLeftBearing" : 1.15625,
     "charRightBearing" : 0.625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 168, 54 ],
+    "charPosition" : [ 96, 106 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "4d",
@@ -542,7 +938,7 @@
     "charLeftBearing" : 0.625,
     "charRightBearing" : 0.640625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 192, 54 ],
+    "charPosition" : [ 120, 106 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "4e",
@@ -554,7 +950,7 @@
     "charLeftBearing" : 0.796875,
     "charRightBearing" : 0.796875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 0, 67 ],
+    "charPosition" : [ 144, 106 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "4f",
@@ -566,7 +962,7 @@
     "charLeftBearing" : 0.5,
     "charRightBearing" : 0.5,
     "charMaxHeight" : 11,
-    "charPosition" : [ 24, 67 ],
+    "charPosition" : [ 168, 106 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "50",
@@ -578,7 +974,7 @@
     "charLeftBearing" : 0.796875,
     "charRightBearing" : 0.53125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 48, 67 ],
+    "charPosition" : [ 192, 106 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "51",
@@ -590,7 +986,7 @@
     "charLeftBearing" : 0.5,
     "charRightBearing" : 0.453125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 72, 67 ],
+    "charPosition" : [ 0, 119 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "52",
@@ -602,7 +998,7 @@
     "charLeftBearing" : 0.796875,
     "charRightBearing" : 0.25,
     "charMaxHeight" : 11,
-    "charPosition" : [ 96, 67 ],
+    "charPosition" : [ 24, 119 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "53",
@@ -614,7 +1010,7 @@
     "charLeftBearing" : 0.390625,
     "charRightBearing" : 0.484375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 120, 67 ],
+    "charPosition" : [ 48, 119 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "54",
@@ -626,7 +1022,7 @@
     "charLeftBearing" : 0.375,
     "charRightBearing" : 0.375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 144, 67 ],
+    "charPosition" : [ 72, 119 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "55",
@@ -638,7 +1034,7 @@
     "charLeftBearing" : 0.6875,
     "charRightBearing" : 0.703125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 168, 67 ],
+    "charPosition" : [ 96, 119 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "56",
@@ -650,7 +1046,7 @@
     "charLeftBearing" : 0.046875,
     "charRightBearing" : 0.046875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 192, 67 ],
+    "charPosition" : [ 120, 119 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "57",
@@ -662,7 +1058,7 @@
     "charLeftBearing" : 0.0,
     "charRightBearing" : 0.0,
     "charMaxHeight" : 11,
-    "charPosition" : [ 0, 80 ],
+    "charPosition" : [ 144, 119 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "58",
@@ -674,7 +1070,7 @@
     "charLeftBearing" : 0.171875,
     "charRightBearing" : 0.171875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 24, 80 ],
+    "charPosition" : [ 168, 119 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "59",
@@ -686,7 +1082,7 @@
     "charLeftBearing" : 0.171875,
     "charRightBearing" : 0.171875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 48, 80 ],
+    "charPosition" : [ 192, 119 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "5a",
@@ -698,7 +1094,7 @@
     "charLeftBearing" : 0.359375,
     "charRightBearing" : 0.359375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 72, 80 ],
+    "charPosition" : [ 0, 132 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "5b",
@@ -710,7 +1106,7 @@
     "charLeftBearing" : 2.0,
     "charRightBearing" : 1.328125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 96, 79 ],
+    "charPosition" : [ 24, 131 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "5c",
@@ -722,7 +1118,7 @@
     "charLeftBearing" : 0.5625,
     "charRightBearing" : 0.5625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 120, 79 ],
+    "charPosition" : [ 48, 131 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "5d",
@@ -734,7 +1130,7 @@
     "charLeftBearing" : 1.3125,
     "charRightBearing" : 2.015625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 144, 79 ],
+    "charPosition" : [ 72, 131 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "5e",
@@ -746,7 +1142,7 @@
     "charLeftBearing" : 0.65625,
     "charRightBearing" : 0.65625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 168, 80 ],
+    "charPosition" : [ 96, 132 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "5f",
@@ -758,7 +1154,7 @@
     "charLeftBearing" : -0.03125,
     "charRightBearing" : -0.015625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 192, 87 ],
+    "charPosition" : [ 120, 139 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "60",
@@ -770,7 +1166,7 @@
     "charLeftBearing" : 1.96875,
     "charRightBearing" : 1.96875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 0, 92 ],
+    "charPosition" : [ 144, 131 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "61",
@@ -782,7 +1178,7 @@
     "charLeftBearing" : 0.625,
     "charRightBearing" : 0.328125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 24, 94 ],
+    "charPosition" : [ 168, 133 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "62",
@@ -794,7 +1190,7 @@
     "charLeftBearing" : 0.875,
     "charRightBearing" : 0.671875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 48, 92 ],
+    "charPosition" : [ 192, 131 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "63",
@@ -806,7 +1202,7 @@
     "charLeftBearing" : 0.640625,
     "charRightBearing" : 0.71875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 72, 94 ],
+    "charPosition" : [ 0, 146 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "64",
@@ -818,7 +1214,7 @@
     "charLeftBearing" : 0.671875,
     "charRightBearing" : 0.875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 96, 92 ],
+    "charPosition" : [ 24, 144 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "65",
@@ -830,7 +1226,7 @@
     "charLeftBearing" : 0.65625,
     "charRightBearing" : 0.65625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 120, 94 ],
+    "charPosition" : [ 48, 146 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "66",
@@ -842,7 +1238,7 @@
     "charLeftBearing" : 0.671875,
     "charRightBearing" : 0.640625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 144, 92 ],
+    "charPosition" : [ 72, 144 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "67",
@@ -854,7 +1250,7 @@
     "charLeftBearing" : 0.703125,
     "charRightBearing" : 0.859375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 168, 94 ],
+    "charPosition" : [ 96, 146 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "68",
@@ -866,7 +1262,7 @@
     "charLeftBearing" : 0.90625,
     "charRightBearing" : 0.875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 192, 92 ],
+    "charPosition" : [ 120, 144 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "69",
@@ -878,7 +1274,7 @@
     "charLeftBearing" : 0.703125,
     "charRightBearing" : 0.5,
     "charMaxHeight" : 11,
-    "charPosition" : [ 0, 105 ],
+    "charPosition" : [ 144, 144 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "6a",
@@ -890,7 +1286,7 @@
     "charLeftBearing" : 0.578125,
     "charRightBearing" : 1.921875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 24, 105 ],
+    "charPosition" : [ 168, 144 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "6b",
@@ -902,7 +1298,7 @@
     "charLeftBearing" : 1.15625,
     "charRightBearing" : 0.5,
     "charMaxHeight" : 11,
-    "charPosition" : [ 48, 105 ],
+    "charPosition" : [ 192, 144 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "6c",
@@ -914,7 +1310,7 @@
     "charLeftBearing" : 0.65625,
     "charRightBearing" : 0.546875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 72, 105 ],
+    "charPosition" : [ 0, 157 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "6d",
@@ -926,7 +1322,7 @@
     "charLeftBearing" : 0.484375,
     "charRightBearing" : 0.515625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 96, 107 ],
+    "charPosition" : [ 24, 159 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "6e",
@@ -938,7 +1334,7 @@
     "charLeftBearing" : 0.875,
     "charRightBearing" : 0.875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 120, 107 ],
+    "charPosition" : [ 48, 159 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "6f",
@@ -950,7 +1346,7 @@
     "charLeftBearing" : 0.640625,
     "charRightBearing" : 0.640625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 144, 107 ],
+    "charPosition" : [ 72, 159 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "70",
@@ -962,7 +1358,7 @@
     "charLeftBearing" : 0.875,
     "charRightBearing" : 0.671875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 168, 107 ],
+    "charPosition" : [ 96, 159 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "71",
@@ -974,7 +1370,7 @@
     "charLeftBearing" : 0.671875,
     "charRightBearing" : 0.875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 192, 107 ],
+    "charPosition" : [ 120, 159 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "72",
@@ -986,7 +1382,7 @@
     "charLeftBearing" : 1.1875,
     "charRightBearing" : 0.890625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 0, 120 ],
+    "charPosition" : [ 144, 159 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "73",
@@ -998,7 +1394,7 @@
     "charLeftBearing" : 0.8125,
     "charRightBearing" : 0.828125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 24, 120 ],
+    "charPosition" : [ 168, 159 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "74",
@@ -1010,7 +1406,7 @@
     "charLeftBearing" : 0.921875,
     "charRightBearing" : 1.03125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 48, 119 ],
+    "charPosition" : [ 192, 158 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "75",
@@ -1022,7 +1418,7 @@
     "charLeftBearing" : 0.90625,
     "charRightBearing" : 0.84375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 72, 120 ],
+    "charPosition" : [ 0, 172 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "76",
@@ -1034,7 +1430,7 @@
     "charLeftBearing" : 0.34375,
     "charRightBearing" : 0.34375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 96, 120 ],
+    "charPosition" : [ 24, 172 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "77",
@@ -1046,7 +1442,7 @@
     "charLeftBearing" : 0.109375,
     "charRightBearing" : 0.09375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 120, 120 ],
+    "charPosition" : [ 48, 172 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "78",
@@ -1058,7 +1454,7 @@
     "charLeftBearing" : 0.453125,
     "charRightBearing" : 0.46875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 144, 120 ],
+    "charPosition" : [ 72, 172 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "79",
@@ -1070,7 +1466,7 @@
     "charLeftBearing" : 0.328125,
     "charRightBearing" : 0.328125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 168, 120 ],
+    "charPosition" : [ 96, 172 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "7a",
@@ -1082,7 +1478,7 @@
     "charLeftBearing" : 0.71875,
     "charRightBearing" : 0.78125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 192, 120 ],
+    "charPosition" : [ 120, 172 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "7b",
@@ -1094,7 +1490,7 @@
     "charLeftBearing" : 1.109375,
     "charRightBearing" : 0.8125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 0, 131 ],
+    "charPosition" : [ 144, 170 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "7c",
@@ -1106,7 +1502,7 @@
     "charLeftBearing" : 2.59375,
     "charRightBearing" : 2.59375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 24, 131 ],
+    "charPosition" : [ 168, 170 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "7d",
@@ -1118,7 +1514,7 @@
     "charLeftBearing" : 0.8125,
     "charRightBearing" : 1.109375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 48, 131 ],
+    "charPosition" : [ 192, 170 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "7e",
@@ -1130,7 +1526,415 @@
     "charLeftBearing" : 0.53125,
     "charRightBearing" : 0.53125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 72, 135 ],
+    "charPosition" : [ 0, 187 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "7f",
+    "nameASCII" : "127",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 24, 187 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "80",
+    "nameASCII" : "128",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 48, 187 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "81",
+    "nameASCII" : "129",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 72, 187 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "82",
+    "nameASCII" : "130",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 96, 187 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "83",
+    "nameASCII" : "131",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 120, 187 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "84",
+    "nameASCII" : "132",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 144, 187 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "85",
+    "nameASCII" : "133",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 168, 187 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "86",
+    "nameASCII" : "134",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 192, 187 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "87",
+    "nameASCII" : "135",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 0, 200 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "88",
+    "nameASCII" : "136",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 24, 200 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "89",
+    "nameASCII" : "137",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 48, 200 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "8a",
+    "nameASCII" : "138",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 72, 200 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "8b",
+    "nameASCII" : "139",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 96, 200 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "8c",
+    "nameASCII" : "140",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 120, 200 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "8d",
+    "nameASCII" : "141",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 144, 200 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "8e",
+    "nameASCII" : "142",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 168, 200 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "8f",
+    "nameASCII" : "143",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 192, 200 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "90",
+    "nameASCII" : "144",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 0, 213 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "91",
+    "nameASCII" : "145",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 24, 213 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "92",
+    "nameASCII" : "146",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 48, 213 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "93",
+    "nameASCII" : "147",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 72, 213 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "94",
+    "nameASCII" : "148",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 96, 213 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "95",
+    "nameASCII" : "149",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 120, 213 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "96",
+    "nameASCII" : "150",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 144, 213 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "97",
+    "nameASCII" : "151",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 168, 213 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "98",
+    "nameASCII" : "152",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 192, 213 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "99",
+    "nameASCII" : "153",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 0, 226 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "9a",
+    "nameASCII" : "154",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 24, 226 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "9b",
+    "nameASCII" : "155",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 48, 226 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "9c",
+    "nameASCII" : "156",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 72, 226 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "9d",
+    "nameASCII" : "157",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 96, 226 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "9e",
+    "nameASCII" : "158",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 120, 226 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "9f",
+    "nameASCII" : "159",
+    "charWidth" : 6,
+    "charHeight" : 4,
+    "charAscent" : 4,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 1.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 144, 226 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "a0",
+    "nameASCII" : "160",
+    "charWidth" : 2,
+    "charHeight" : 0,
+    "charAscent" : 0,
+    "charDescent" : 0,
+    "charLeftBearing" : -942.0,
+    "charRightBearing" : 948.0,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 168, 230 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "a1",
@@ -1142,7 +1946,7 @@
     "charLeftBearing" : 2.515625,
     "charRightBearing" : 2.515625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 96, 133 ],
+    "charPosition" : [ 192, 224 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "a2",
@@ -1154,7 +1958,7 @@
     "charLeftBearing" : 0.65625,
     "charRightBearing" : 0.65625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 120, 132 ],
+    "charPosition" : [ 0, 236 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "a3",
@@ -1166,7 +1970,7 @@
     "charLeftBearing" : 0.28125,
     "charRightBearing" : 0.28125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 144, 132 ],
+    "charPosition" : [ 24, 236 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "a4",
@@ -1178,7 +1982,7 @@
     "charLeftBearing" : 0.765625,
     "charRightBearing" : 0.765625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 168, 133 ],
+    "charPosition" : [ 48, 237 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "a5",
@@ -1190,7 +1994,7 @@
     "charLeftBearing" : 0.25,
     "charRightBearing" : 0.25,
     "charMaxHeight" : 11,
-    "charPosition" : [ 192, 132 ],
+    "charPosition" : [ 72, 236 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "a6",
@@ -1202,7 +2006,7 @@
     "charLeftBearing" : 2.59375,
     "charRightBearing" : 2.59375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 0, 144 ],
+    "charPosition" : [ 96, 235 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "a7",
@@ -1214,7 +2018,7 @@
     "charLeftBearing" : 0.78125,
     "charRightBearing" : 0.78125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 24, 144 ],
+    "charPosition" : [ 120, 235 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "a8",
@@ -1226,7 +2030,7 @@
     "charLeftBearing" : 1.640625,
     "charRightBearing" : 1.640625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 48, 145 ],
+    "charPosition" : [ 144, 236 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "a9",
@@ -1238,7 +2042,7 @@
     "charLeftBearing" : 0.15625,
     "charRightBearing" : 0.15625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 72, 144 ],
+    "charPosition" : [ 168, 235 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "aa",
@@ -1250,7 +2054,7 @@
     "charLeftBearing" : 1.0,
     "charRightBearing" : 1.015625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 96, 145 ],
+    "charPosition" : [ 192, 236 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "ab",
@@ -1262,7 +2066,7 @@
     "charLeftBearing" : 0.625,
     "charRightBearing" : 0.53125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 120, 147 ],
+    "charPosition" : [ 0, 251 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "ac",
@@ -1274,7 +2078,7 @@
     "charLeftBearing" : 0.5625,
     "charRightBearing" : 0.578125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 144, 148 ],
+    "charPosition" : [ 24, 252 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "ad",
@@ -1286,7 +2090,7 @@
     "charLeftBearing" : 1.625,
     "charRightBearing" : 1.640625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 168, 148 ],
+    "charPosition" : [ 48, 252 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "ae",
@@ -1298,7 +2102,7 @@
     "charLeftBearing" : 0.15625,
     "charRightBearing" : 0.15625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 192, 144 ],
+    "charPosition" : [ 72, 248 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "af",
@@ -1310,7 +2114,7 @@
     "charLeftBearing" : -0.03125,
     "charRightBearing" : -0.015625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 0, 156 ],
+    "charPosition" : [ 96, 247 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "b0",
@@ -1322,7 +2126,7 @@
     "charLeftBearing" : 1.59375,
     "charRightBearing" : 1.59375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 24, 158 ],
+    "charPosition" : [ 120, 249 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "b1",
@@ -1334,7 +2138,7 @@
     "charLeftBearing" : 0.5625,
     "charRightBearing" : 0.578125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 48, 159 ],
+    "charPosition" : [ 144, 250 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "b2",
@@ -1346,7 +2150,7 @@
     "charLeftBearing" : 1.53125,
     "charRightBearing" : 1.53125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 72, 158 ],
+    "charPosition" : [ 168, 249 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "b3",
@@ -1358,7 +2162,7 @@
     "charLeftBearing" : 1.5,
     "charRightBearing" : 1.5,
     "charMaxHeight" : 11,
-    "charPosition" : [ 96, 158 ],
+    "charPosition" : [ 192, 249 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "b4",
@@ -1370,7 +2174,7 @@
     "charLeftBearing" : 1.96875,
     "charRightBearing" : 1.96875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 120, 157 ],
+    "charPosition" : [ 0, 261 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "b5",
@@ -1382,7 +2186,7 @@
     "charLeftBearing" : 0.703125,
     "charRightBearing" : 0.703125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 144, 159 ],
+    "charPosition" : [ 24, 263 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "b6",
@@ -1394,7 +2198,7 @@
     "charLeftBearing" : 0.625,
     "charRightBearing" : 0.71875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 168, 158 ],
+    "charPosition" : [ 48, 262 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "b7",
@@ -1406,7 +2210,7 @@
     "charLeftBearing" : 2.421875,
     "charRightBearing" : 2.4375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 192, 161 ],
+    "charPosition" : [ 72, 265 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "b8",
@@ -1418,7 +2222,7 @@
     "charLeftBearing" : 0.578125,
     "charRightBearing" : 3.640625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 0, 178 ],
+    "charPosition" : [ 96, 269 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "b9",
@@ -1430,7 +2234,7 @@
     "charLeftBearing" : 1.390625,
     "charRightBearing" : 1.5,
     "charMaxHeight" : 11,
-    "charPosition" : [ 24, 171 ],
+    "charPosition" : [ 120, 262 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "ba",
@@ -1442,7 +2246,7 @@
     "charLeftBearing" : 1.109375,
     "charRightBearing" : 1.109375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 48, 171 ],
+    "charPosition" : [ 144, 262 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "bb",
@@ -1454,7 +2258,7 @@
     "charLeftBearing" : 0.515625,
     "charRightBearing" : 0.625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 72, 173 ],
+    "charPosition" : [ 168, 264 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "bc",
@@ -1466,1003 +2270,7 @@
     "charLeftBearing" : 0.4375,
     "charRightBearing" : -0.015625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 96, 171 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2010",
-    "nameASCII" : "8208",
-    "charWidth" : 6,
-    "charHeight" : 4,
-    "charAscent" : 4,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.625,
-    "charRightBearing" : 1.625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 120, 174 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2011",
-    "nameASCII" : "8209",
-    "charWidth" : 6,
-    "charHeight" : 4,
-    "charAscent" : 4,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.625,
-    "charRightBearing" : 1.625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 144, 174 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2013",
-    "nameASCII" : "8211",
-    "charWidth" : 7,
-    "charHeight" : 1,
-    "charAscent" : 3,
-    "charDescent" : -2,
-    "charLeftBearing" : 0.828125,
-    "charRightBearing" : 0.828125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 168, 175 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2014",
-    "nameASCII" : "8212",
-    "charWidth" : 9,
-    "charHeight" : 1,
-    "charAscent" : 3,
-    "charDescent" : -2,
-    "charLeftBearing" : -0.046875,
-    "charRightBearing" : -0.046875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 192, 175 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2015",
-    "nameASCII" : "8213",
-    "charWidth" : 9,
-    "charHeight" : 1,
-    "charAscent" : 3,
-    "charDescent" : -2,
-    "charLeftBearing" : -0.046875,
-    "charRightBearing" : -0.046875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 0, 188 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2017",
-    "nameASCII" : "8215",
-    "charWidth" : 9,
-    "charHeight" : 2,
-    "charAscent" : 0,
-    "charDescent" : 2,
-    "charLeftBearing" : -0.03125,
-    "charRightBearing" : -0.015625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 24, 191 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2018",
-    "nameASCII" : "8216",
-    "charWidth" : 5,
-    "charHeight" : 4,
-    "charAscent" : 8,
-    "charDescent" : -4,
-    "charLeftBearing" : 1.9375,
-    "charRightBearing" : 1.9375,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 48, 183 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2019",
-    "nameASCII" : "8217",
-    "charWidth" : 5,
-    "charHeight" : 4,
-    "charAscent" : 8,
-    "charDescent" : -4,
-    "charLeftBearing" : 1.953125,
-    "charRightBearing" : 1.9375,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 72, 183 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "201a",
-    "nameASCII" : "8218",
-    "charWidth" : 5,
-    "charHeight" : 4,
-    "charAscent" : 2,
-    "charDescent" : 2,
-    "charLeftBearing" : 1.703125,
-    "charRightBearing" : 2.171875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 96, 189 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "201b",
-    "nameASCII" : "8219",
-    "charWidth" : 5,
-    "charHeight" : 4,
-    "charAscent" : 8,
-    "charDescent" : -4,
-    "charLeftBearing" : 1.9375,
-    "charRightBearing" : 1.9375,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 120, 183 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "201c",
-    "nameASCII" : "8220",
-    "charWidth" : 7,
-    "charHeight" : 4,
-    "charAscent" : 8,
-    "charDescent" : -4,
-    "charLeftBearing" : 0.859375,
-    "charRightBearing" : 0.875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 144, 183 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "201d",
-    "nameASCII" : "8221",
-    "charWidth" : 7,
-    "charHeight" : 4,
-    "charAscent" : 8,
-    "charDescent" : -4,
-    "charLeftBearing" : 0.875,
-    "charRightBearing" : 0.875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 168, 183 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "201e",
-    "nameASCII" : "8222",
-    "charWidth" : 7,
-    "charHeight" : 4,
-    "charAscent" : 2,
-    "charDescent" : 2,
-    "charLeftBearing" : 0.875,
-    "charRightBearing" : 0.875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 192, 189 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2026",
-    "nameASCII" : "8230",
-    "charWidth" : 7,
-    "charHeight" : 2,
-    "charAscent" : 2,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.578125,
-    "charRightBearing" : 0.5625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 0, 202 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2030",
-    "nameASCII" : "8240",
-    "charWidth" : 8,
-    "charHeight" : 7,
-    "charAscent" : 7,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.0,
-    "charRightBearing" : 0.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 24, 197 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2032",
-    "nameASCII" : "8242",
-    "charWidth" : 4,
-    "charHeight" : 4,
-    "charAscent" : 8,
-    "charDescent" : -4,
-    "charLeftBearing" : 2.453125,
-    "charRightBearing" : 2.453125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 48, 196 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2033",
-    "nameASCII" : "8243",
-    "charWidth" : 6,
-    "charHeight" : 4,
-    "charAscent" : 8,
-    "charDescent" : -4,
-    "charLeftBearing" : 1.359375,
-    "charRightBearing" : 1.359375,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 72, 196 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2039",
-    "nameASCII" : "8249",
-    "charWidth" : 5,
-    "charHeight" : 4,
-    "charAscent" : 5,
-    "charDescent" : -1,
-    "charLeftBearing" : 1.6875,
-    "charRightBearing" : 1.796875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 96, 199 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "203c",
-    "nameASCII" : "8252",
-    "charWidth" : 6,
-    "charHeight" : 7,
-    "charAscent" : 7,
-    "charDescent" : 0,
-    "charLeftBearing" : 1.15625,
-    "charRightBearing" : 1.15625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 120, 197 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "203a",
-    "nameASCII" : "8250",
-    "charWidth" : 5,
-    "charHeight" : 4,
-    "charAscent" : 5,
-    "charDescent" : -1,
-    "charLeftBearing" : 1.78125,
-    "charRightBearing" : 1.703125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 144, 199 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "203e",
-    "nameASCII" : "8254",
-    "charWidth" : 9,
-    "charHeight" : 1,
-    "charAscent" : 8,
-    "charDescent" : -7,
-    "charLeftBearing" : -0.03125,
-    "charRightBearing" : -0.015625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 168, 196 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2044",
-    "nameASCII" : "8260",
-    "charWidth" : 6,
-    "charHeight" : 7,
-    "charAscent" : 7,
-    "charDescent" : 0,
-    "charLeftBearing" : 1.0,
-    "charRightBearing" : 1.015625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 192, 197 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "207f",
-    "nameASCII" : "8319",
-    "charWidth" : 5,
-    "charHeight" : 4,
-    "charAscent" : 6,
-    "charDescent" : -2,
-    "charLeftBearing" : 1.75,
-    "charRightBearing" : 1.609375,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 0, 211 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2039",
-    "nameASCII" : "8249",
-    "charWidth" : 5,
-    "charHeight" : 4,
-    "charAscent" : 5,
-    "charDescent" : -1,
-    "charLeftBearing" : 1.6875,
-    "charRightBearing" : 1.796875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 24, 212 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "203a",
-    "nameASCII" : "8250",
-    "charWidth" : 5,
-    "charHeight" : 4,
-    "charAscent" : 5,
-    "charDescent" : -1,
-    "charLeftBearing" : 1.78125,
-    "charRightBearing" : 1.703125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 48, 212 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2126",
-    "nameASCII" : "8486",
-    "charWidth" : 8,
-    "charHeight" : 7,
-    "charAscent" : 7,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.28125,
-    "charRightBearing" : 0.28125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 72, 210 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "212e",
-    "nameASCII" : "8494",
-    "charWidth" : 8,
-    "charHeight" : 6,
-    "charAscent" : 6,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.46875,
-    "charRightBearing" : 0.359375,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 96, 211 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2190",
-    "nameASCII" : "8592",
-    "charWidth" : 8,
-    "charHeight" : 3,
-    "charAscent" : 3,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.046875,
-    "charRightBearing" : 0.046875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 120, 214 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2191",
-    "nameASCII" : "8593",
-    "charWidth" : 5,
-    "charHeight" : 6,
-    "charAscent" : 6,
-    "charDescent" : 0,
-    "charLeftBearing" : 1.828125,
-    "charRightBearing" : 1.828125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 144, 211 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2192",
-    "nameASCII" : "8594",
-    "charWidth" : 8,
-    "charHeight" : 3,
-    "charAscent" : 3,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.046875,
-    "charRightBearing" : 0.046875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 168, 214 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2193",
-    "nameASCII" : "8595",
-    "charWidth" : 5,
-    "charHeight" : 6,
-    "charAscent" : 6,
-    "charDescent" : 0,
-    "charLeftBearing" : 1.828125,
-    "charRightBearing" : 1.828125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 192, 211 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2194",
-    "nameASCII" : "8596",
-    "charWidth" : 8,
-    "charHeight" : 3,
-    "charAscent" : 3,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.046875,
-    "charRightBearing" : 0.046875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 0, 227 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2195",
-    "nameASCII" : "8597",
-    "charWidth" : 5,
-    "charHeight" : 6,
-    "charAscent" : 6,
-    "charDescent" : 0,
-    "charLeftBearing" : 1.828125,
-    "charRightBearing" : 1.828125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 24, 224 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "21a8",
-    "nameASCII" : "8616",
-    "charWidth" : 5,
-    "charHeight" : 7,
-    "charAscent" : 6,
-    "charDescent" : 1,
-    "charLeftBearing" : 1.828125,
-    "charRightBearing" : 1.828125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 48, 224 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2212",
-    "nameASCII" : "8722",
-    "charWidth" : 7,
-    "charHeight" : 1,
-    "charAscent" : 4,
-    "charDescent" : -3,
-    "charLeftBearing" : 0.578125,
-    "charRightBearing" : 0.5625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 72, 226 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2215",
-    "nameASCII" : "8725",
-    "charWidth" : 6,
-    "charHeight" : 7,
-    "charAscent" : 7,
-    "charDescent" : 0,
-    "charLeftBearing" : 1.0,
-    "charRightBearing" : 1.015625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 96, 223 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2219",
-    "nameASCII" : "8729",
-    "charWidth" : 4,
-    "charHeight" : 2,
-    "charAscent" : 4,
-    "charDescent" : -2,
-    "charLeftBearing" : 2.421875,
-    "charRightBearing" : 2.4375,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 120, 226 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2302",
-    "nameASCII" : "8962",
-    "charWidth" : 7,
-    "charHeight" : 6,
-    "charAscent" : 6,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.671875,
-    "charRightBearing" : 0.671875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 144, 224 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2580",
-    "nameASCII" : "9600",
-    "charWidth" : 8,
-    "charHeight" : 6,
-    "charAscent" : 9,
-    "charDescent" : -3,
-    "charLeftBearing" : 0.0,
-    "charRightBearing" : 0.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 168, 221 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2584",
-    "nameASCII" : "9604",
-    "charWidth" : 8,
-    "charHeight" : 7,
-    "charAscent" : 4,
-    "charDescent" : 3,
-    "charLeftBearing" : 0.0,
-    "charRightBearing" : 0.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 192, 226 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2588",
-    "nameASCII" : "9608",
-    "charWidth" : 8,
-    "charHeight" : 12,
-    "charAscent" : 9,
-    "charDescent" : 3,
-    "charLeftBearing" : 0.0,
-    "charRightBearing" : 0.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 0, 234 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "258c",
-    "nameASCII" : "9612",
-    "charWidth" : 5,
-    "charHeight" : 12,
-    "charAscent" : 9,
-    "charDescent" : 3,
-    "charLeftBearing" : 0.0,
-    "charRightBearing" : 3.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 24, 234 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2590",
-    "nameASCII" : "9616",
-    "charWidth" : 5,
-    "charHeight" : 12,
-    "charAscent" : 9,
-    "charDescent" : 3,
-    "charLeftBearing" : 3.0,
-    "charRightBearing" : 0.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 48, 234 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "25a0",
-    "nameASCII" : "9632",
-    "charWidth" : 7,
-    "charHeight" : 5,
-    "charAscent" : 6,
-    "charDescent" : -1,
-    "charLeftBearing" : 0.578125,
-    "charRightBearing" : 0.578125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 72, 237 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "25a1",
-    "nameASCII" : "9633",
-    "charWidth" : 8,
-    "charHeight" : 6,
-    "charAscent" : 6,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.015625,
-    "charRightBearing" : 0.015625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 96, 237 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "25aa",
-    "nameASCII" : "9642",
-    "charWidth" : 5,
-    "charHeight" : 3,
-    "charAscent" : 5,
-    "charDescent" : -2,
-    "charLeftBearing" : 1.765625,
-    "charRightBearing" : 1.765625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 120, 238 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "25ab",
-    "nameASCII" : "9643",
-    "charWidth" : 5,
-    "charHeight" : 3,
-    "charAscent" : 5,
-    "charDescent" : -2,
-    "charLeftBearing" : 1.765625,
-    "charRightBearing" : 1.765625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 144, 238 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "25ac",
-    "nameASCII" : "9644",
-    "charWidth" : 8,
-    "charHeight" : 3,
-    "charAscent" : 3,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.046875,
-    "charRightBearing" : 0.03125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 168, 240 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "25b2",
-    "nameASCII" : "9650",
-    "charWidth" : 8,
-    "charHeight" : 6,
-    "charAscent" : 6,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.078125,
-    "charRightBearing" : 0.078125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 192, 237 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "25ba",
-    "nameASCII" : "9658",
-    "charWidth" : 8,
-    "charHeight" : 6,
-    "charAscent" : 6,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.25,
-    "charRightBearing" : 0.015625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 0, 250 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "25bc",
-    "nameASCII" : "9660",
-    "charWidth" : 8,
-    "charHeight" : 6,
-    "charAscent" : 6,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.078125,
-    "charRightBearing" : 0.078125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 24, 250 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "25c4",
-    "nameASCII" : "9668",
-    "charWidth" : 8,
-    "charHeight" : 6,
-    "charAscent" : 6,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.015625,
-    "charRightBearing" : 0.25,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 48, 250 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "25ca",
-    "nameASCII" : "9674",
-    "charWidth" : 7,
-    "charHeight" : 8,
-    "charAscent" : 8,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.5625,
-    "charRightBearing" : 0.5625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 72, 248 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "25cb",
-    "nameASCII" : "9675",
-    "charWidth" : 7,
-    "charHeight" : 5,
-    "charAscent" : 6,
-    "charDescent" : -1,
-    "charLeftBearing" : 0.796875,
-    "charRightBearing" : 0.796875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 96, 250 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "25cf",
-    "nameASCII" : "9679",
-    "charWidth" : 7,
-    "charHeight" : 5,
-    "charAscent" : 5,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.84375,
-    "charRightBearing" : 0.84375,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 120, 251 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "25d8",
-    "nameASCII" : "9688",
-    "charWidth" : 8,
-    "charHeight" : 6,
-    "charAscent" : 6,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.1875,
-    "charRightBearing" : 0.171875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 144, 250 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "25d9",
-    "nameASCII" : "9689",
-    "charWidth" : 8,
-    "charHeight" : 6,
-    "charAscent" : 6,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.1875,
-    "charRightBearing" : 0.171875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 168, 250 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "25e6",
-    "nameASCII" : "9702",
-    "charWidth" : 5,
-    "charHeight" : 3,
-    "charAscent" : 5,
-    "charDescent" : -2,
-    "charLeftBearing" : 1.78125,
-    "charRightBearing" : 1.796875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 192, 251 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "263c",
-    "nameASCII" : "9788",
-    "charWidth" : 8,
-    "charHeight" : 6,
-    "charAscent" : 6,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.125,
-    "charRightBearing" : 0.125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 0, 263 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2666",
-    "nameASCII" : "9830",
-    "charWidth" : 7,
-    "charHeight" : 6,
-    "charAscent" : 6,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.640625,
-    "charRightBearing" : 0.640625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 24, 263 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "0a",
-    "nameASCII" : "10",
-    "charWidth" : 2,
-    "charHeight" : 0,
-    "charAscent" : 0,
-    "charDescent" : 0,
-    "charLeftBearing" : -1092.0,
-    "charRightBearing" : 1092.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 48, 269 ],
-    "logicalWidth" : 0.0
-  }, {
-    "nameHex" : "7e",
-    "nameASCII" : "126",
-    "charWidth" : 7,
-    "charHeight" : 2,
-    "charAscent" : 4,
-    "charDescent" : -2,
-    "charLeftBearing" : 0.53125,
-    "charRightBearing" : 0.53125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 48, 265 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "c7",
-    "nameASCII" : "199",
-    "charWidth" : 8,
-    "charHeight" : 9,
-    "charAscent" : 7,
-    "charDescent" : 2,
-    "charLeftBearing" : 0.546875,
-    "charRightBearing" : 0.421875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 72, 262 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "fc",
-    "nameASCII" : "252",
-    "charWidth" : 7,
-    "charHeight" : 7,
-    "charAscent" : 7,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.90625,
-    "charRightBearing" : 0.84375,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 96, 262 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "e9",
-    "nameASCII" : "233",
-    "charWidth" : 7,
-    "charHeight" : 8,
-    "charAscent" : 8,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.65625,
-    "charRightBearing" : 0.65625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 120, 261 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "e2",
-    "nameASCII" : "226",
-    "charWidth" : 8,
-    "charHeight" : 8,
-    "charAscent" : 8,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.625,
-    "charRightBearing" : 0.328125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 144, 261 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "e4",
-    "nameASCII" : "228",
-    "charWidth" : 8,
-    "charHeight" : 7,
-    "charAscent" : 7,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.625,
-    "charRightBearing" : 0.328125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 168, 262 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "f8",
-    "nameASCII" : "248",
-    "charWidth" : 7,
-    "charHeight" : 6,
-    "charAscent" : 6,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.53125,
-    "charRightBearing" : 0.546875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 0, 276 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "a3",
-    "nameASCII" : "163",
-    "charWidth" : 8,
-    "charHeight" : 7,
-    "charAscent" : 7,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.28125,
-    "charRightBearing" : 0.28125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 24, 275 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "d8",
-    "nameASCII" : "216",
-    "charWidth" : 8,
-    "charHeight" : 7,
-    "charAscent" : 7,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.28125,
-    "charRightBearing" : 0.28125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 48, 275 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "d7",
-    "nameASCII" : "215",
-    "charWidth" : 7,
-    "charHeight" : 5,
-    "charAscent" : 6,
-    "charDescent" : -1,
-    "charLeftBearing" : 0.765625,
-    "charRightBearing" : 0.78125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 72, 276 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "192",
-    "nameASCII" : "402",
-    "charWidth" : 7,
-    "charHeight" : 9,
-    "charAscent" : 7,
-    "charDescent" : 2,
-    "charLeftBearing" : 1.140625,
-    "charRightBearing" : 0.78125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 96, 275 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "e1",
-    "nameASCII" : "225",
-    "charWidth" : 8,
-    "charHeight" : 8,
-    "charAscent" : 8,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.625,
-    "charRightBearing" : 0.328125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 120, 274 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "ed",
-    "nameASCII" : "237",
-    "charWidth" : 7,
-    "charHeight" : 8,
-    "charAscent" : 8,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.703125,
-    "charRightBearing" : 0.5,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 144, 274 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "f3",
-    "nameASCII" : "243",
-    "charWidth" : 7,
-    "charHeight" : 8,
-    "charAscent" : 8,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.640625,
-    "charRightBearing" : 0.640625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 168, 274 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "fa",
-    "nameASCII" : "250",
-    "charWidth" : 7,
-    "charHeight" : 8,
-    "charAscent" : 8,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.90625,
-    "charRightBearing" : 0.84375,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 192, 274 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "f1",
-    "nameASCII" : "241",
-    "charWidth" : 7,
-    "charHeight" : 8,
-    "charAscent" : 8,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.875,
-    "charRightBearing" : 0.875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 0, 287 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "d1",
-    "nameASCII" : "209",
-    "charWidth" : 7,
-    "charHeight" : 9,
-    "charAscent" : 9,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.796875,
-    "charRightBearing" : 0.796875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 24, 286 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "aa",
-    "nameASCII" : "170",
-    "charWidth" : 6,
-    "charHeight" : 4,
-    "charAscent" : 7,
-    "charDescent" : -3,
-    "charLeftBearing" : 1.0,
-    "charRightBearing" : 1.015625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 48, 288 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "ba",
-    "nameASCII" : "186",
-    "charWidth" : 6,
-    "charHeight" : 4,
-    "charAscent" : 7,
-    "charDescent" : -3,
-    "charLeftBearing" : 1.109375,
-    "charRightBearing" : 1.109375,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 72, 288 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "bf",
-    "nameASCII" : "191",
-    "charWidth" : 7,
-    "charHeight" : 7,
-    "charAscent" : 6,
-    "charDescent" : 1,
-    "charLeftBearing" : 0.75,
-    "charRightBearing" : 0.46875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 96, 289 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "ae",
-    "nameASCII" : "174",
-    "charWidth" : 8,
-    "charHeight" : 8,
-    "charAscent" : 8,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.15625,
-    "charRightBearing" : 0.15625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 120, 287 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "ac",
-    "nameASCII" : "172",
-    "charWidth" : 7,
-    "charHeight" : 3,
-    "charAscent" : 4,
-    "charDescent" : -1,
-    "charLeftBearing" : 0.5625,
-    "charRightBearing" : 0.578125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 144, 291 ],
+    "charPosition" : [ 192, 262 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "bd",
@@ -2474,883 +2282,7 @@
     "charLeftBearing" : 0.4375,
     "charRightBearing" : 0.234375,
     "charMaxHeight" : 11,
-    "charPosition" : [ 168, 288 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "bc",
-    "nameASCII" : "188",
-    "charWidth" : 8,
-    "charHeight" : 7,
-    "charAscent" : 7,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.4375,
-    "charRightBearing" : -0.015625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 192, 288 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "a1",
-    "nameASCII" : "161",
-    "charWidth" : 3,
-    "charHeight" : 7,
-    "charAscent" : 6,
-    "charDescent" : 1,
-    "charLeftBearing" : 2.515625,
-    "charRightBearing" : 2.515625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 0, 302 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "ab",
-    "nameASCII" : "171",
-    "charWidth" : 7,
-    "charHeight" : 4,
-    "charAscent" : 5,
-    "charDescent" : -1,
-    "charLeftBearing" : 0.625,
-    "charRightBearing" : 0.53125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 24, 303 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "bb",
-    "nameASCII" : "187",
-    "charWidth" : 7,
-    "charHeight" : 4,
-    "charAscent" : 5,
-    "charDescent" : -1,
-    "charLeftBearing" : 0.515625,
-    "charRightBearing" : 0.625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 48, 303 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2591",
-    "nameASCII" : "9617",
-    "charWidth" : 8,
-    "charHeight" : 11,
-    "charAscent" : 9,
-    "charDescent" : 2,
-    "charLeftBearing" : 0.0,
-    "charRightBearing" : 0.5,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 72, 299 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2592",
-    "nameASCII" : "9618",
-    "charWidth" : 8,
-    "charHeight" : 11,
-    "charAscent" : 9,
-    "charDescent" : 2,
-    "charLeftBearing" : 0.0,
-    "charRightBearing" : 0.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 96, 299 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2593",
-    "nameASCII" : "9619",
-    "charWidth" : 8,
-    "charHeight" : 12,
-    "charAscent" : 9,
-    "charDescent" : 3,
-    "charLeftBearing" : 0.0,
-    "charRightBearing" : 0.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 120, 299 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2502",
-    "nameASCII" : "9474",
-    "charWidth" : 3,
-    "charHeight" : 12,
-    "charAscent" : 9,
-    "charDescent" : 3,
-    "charLeftBearing" : 2.640625,
-    "charRightBearing" : 2.640625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 144, 299 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2524",
-    "nameASCII" : "9508",
-    "charWidth" : 6,
-    "charHeight" : 12,
-    "charAscent" : 9,
-    "charDescent" : 3,
-    "charLeftBearing" : -0.046875,
-    "charRightBearing" : 2.640625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 168, 299 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "c1",
-    "nameASCII" : "193",
-    "charWidth" : 8,
-    "charHeight" : 9,
-    "charAscent" : 9,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.0,
-    "charRightBearing" : 0.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 192, 299 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "c2",
-    "nameASCII" : "194",
-    "charWidth" : 8,
-    "charHeight" : 9,
-    "charAscent" : 9,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.0,
-    "charRightBearing" : 0.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 0, 312 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "0a",
-    "nameASCII" : "10",
-    "charWidth" : 2,
-    "charHeight" : 0,
-    "charAscent" : 0,
-    "charDescent" : 0,
-    "charLeftBearing" : -1296.0,
-    "charRightBearing" : 1296.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 24, 321 ],
-    "logicalWidth" : 0.0
-  }, {
-    "nameHex" : "20",
-    "nameASCII" : "32",
-    "charWidth" : 2,
-    "charHeight" : 0,
-    "charAscent" : 0,
-    "charDescent" : 0,
-    "charLeftBearing" : -1296.0,
-    "charRightBearing" : 1302.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 24, 321 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "c0",
-    "nameASCII" : "192",
-    "charWidth" : 8,
-    "charHeight" : 9,
-    "charAscent" : 9,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.0,
-    "charRightBearing" : 0.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 48, 312 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "a9",
-    "nameASCII" : "169",
-    "charWidth" : 8,
-    "charHeight" : 8,
-    "charAscent" : 8,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.15625,
-    "charRightBearing" : 0.15625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 72, 313 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2563",
-    "nameASCII" : "9571",
-    "charWidth" : 7,
-    "charHeight" : 12,
-    "charAscent" : 9,
-    "charDescent" : 3,
-    "charLeftBearing" : -0.046875,
-    "charRightBearing" : 1.765625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 96, 312 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2551",
-    "nameASCII" : "9553",
-    "charWidth" : 5,
-    "charHeight" : 12,
-    "charAscent" : 9,
-    "charDescent" : 3,
-    "charLeftBearing" : 1.765625,
-    "charRightBearing" : 1.765625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 120, 312 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2557",
-    "nameASCII" : "9559",
-    "charWidth" : 7,
-    "charHeight" : 8,
-    "charAscent" : 5,
-    "charDescent" : 3,
-    "charLeftBearing" : -0.046875,
-    "charRightBearing" : 1.765625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 144, 316 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "255d",
-    "nameASCII" : "9565",
-    "charWidth" : 7,
-    "charHeight" : 7,
-    "charAscent" : 9,
-    "charDescent" : -2,
-    "charLeftBearing" : -0.046875,
-    "charRightBearing" : 1.765625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 168, 312 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "a2",
-    "nameASCII" : "162",
-    "charWidth" : 7,
-    "charHeight" : 8,
-    "charAscent" : 7,
-    "charDescent" : 1,
-    "charLeftBearing" : 0.65625,
-    "charRightBearing" : 0.65625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 0, 327 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "a5",
-    "nameASCII" : "165",
-    "charWidth" : 8,
-    "charHeight" : 7,
-    "charAscent" : 7,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.25,
-    "charRightBearing" : 0.25,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 24, 327 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2510",
-    "nameASCII" : "9488",
-    "charWidth" : 6,
-    "charHeight" : 7,
-    "charAscent" : 4,
-    "charDescent" : 3,
-    "charLeftBearing" : -0.046875,
-    "charRightBearing" : 2.640625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 48, 330 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2514",
-    "nameASCII" : "9492",
-    "charWidth" : 6,
-    "charHeight" : 6,
-    "charAscent" : 9,
-    "charDescent" : -3,
-    "charLeftBearing" : 2.640625,
-    "charRightBearing" : -0.046875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 72, 325 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2534",
-    "nameASCII" : "9524",
-    "charWidth" : 9,
-    "charHeight" : 6,
-    "charAscent" : 9,
-    "charDescent" : -3,
-    "charLeftBearing" : -0.046875,
-    "charRightBearing" : -0.046875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 96, 325 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "252c",
-    "nameASCII" : "9516",
-    "charWidth" : 9,
-    "charHeight" : 7,
-    "charAscent" : 4,
-    "charDescent" : 3,
-    "charLeftBearing" : -0.046875,
-    "charRightBearing" : -0.046875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 120, 330 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "251c",
-    "nameASCII" : "9500",
-    "charWidth" : 6,
-    "charHeight" : 12,
-    "charAscent" : 9,
-    "charDescent" : 3,
-    "charLeftBearing" : 2.640625,
-    "charRightBearing" : -0.046875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 144, 325 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2500",
-    "nameASCII" : "9472",
-    "charWidth" : 9,
-    "charHeight" : 1,
-    "charAscent" : 4,
-    "charDescent" : -3,
-    "charLeftBearing" : -0.046875,
-    "charRightBearing" : -0.046875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 168, 330 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "253c",
-    "nameASCII" : "9532",
-    "charWidth" : 9,
-    "charHeight" : 12,
-    "charAscent" : 9,
-    "charDescent" : 3,
-    "charLeftBearing" : -0.046875,
-    "charRightBearing" : -0.046875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 192, 325 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "e3",
-    "nameASCII" : "227",
-    "charWidth" : 8,
-    "charHeight" : 8,
-    "charAscent" : 8,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.625,
-    "charRightBearing" : 0.328125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 0, 339 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "c3",
-    "nameASCII" : "195",
-    "charWidth" : 8,
-    "charHeight" : 9,
-    "charAscent" : 9,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.0,
-    "charRightBearing" : 0.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 24, 338 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "255a",
-    "nameASCII" : "9562",
-    "charWidth" : 7,
-    "charHeight" : 7,
-    "charAscent" : 9,
-    "charDescent" : -2,
-    "charLeftBearing" : 1.765625,
-    "charRightBearing" : -0.046875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 48, 338 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2554",
-    "nameASCII" : "9556",
-    "charWidth" : 7,
-    "charHeight" : 8,
-    "charAscent" : 5,
-    "charDescent" : 3,
-    "charLeftBearing" : 1.765625,
-    "charRightBearing" : -0.046875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 72, 342 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2569",
-    "nameASCII" : "9577",
-    "charWidth" : 9,
-    "charHeight" : 7,
-    "charAscent" : 9,
-    "charDescent" : -2,
-    "charLeftBearing" : -0.046875,
-    "charRightBearing" : -0.046875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 96, 338 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2566",
-    "nameASCII" : "9574",
-    "charWidth" : 9,
-    "charHeight" : 8,
-    "charAscent" : 5,
-    "charDescent" : 3,
-    "charLeftBearing" : -0.046875,
-    "charRightBearing" : -0.046875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 120, 342 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2560",
-    "nameASCII" : "9568",
-    "charWidth" : 7,
-    "charHeight" : 12,
-    "charAscent" : 9,
-    "charDescent" : 3,
-    "charLeftBearing" : 1.765625,
-    "charRightBearing" : -0.046875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 144, 338 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2550",
-    "nameASCII" : "9552",
-    "charWidth" : 9,
-    "charHeight" : 3,
-    "charAscent" : 5,
-    "charDescent" : -2,
-    "charLeftBearing" : -0.046875,
-    "charRightBearing" : -0.046875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 168, 342 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "256c",
-    "nameASCII" : "9580",
-    "charWidth" : 9,
-    "charHeight" : 12,
-    "charAscent" : 9,
-    "charDescent" : 3,
-    "charLeftBearing" : -0.046875,
-    "charRightBearing" : -0.046875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 192, 338 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "a4",
-    "nameASCII" : "164",
-    "charWidth" : 7,
-    "charHeight" : 5,
-    "charAscent" : 6,
-    "charDescent" : -1,
-    "charLeftBearing" : 0.765625,
-    "charRightBearing" : 0.765625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 0, 354 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "f0",
-    "nameASCII" : "240",
-    "charWidth" : 7,
-    "charHeight" : 8,
-    "charAscent" : 8,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.609375,
-    "charRightBearing" : 0.625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 24, 352 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "d0",
-    "nameASCII" : "208",
-    "charWidth" : 8,
-    "charHeight" : 7,
-    "charAscent" : 7,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.125,
-    "charRightBearing" : 0.5,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 48, 353 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "ca",
-    "nameASCII" : "202",
-    "charWidth" : 7,
-    "charHeight" : 9,
-    "charAscent" : 9,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.796875,
-    "charRightBearing" : 0.515625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 72, 351 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "cb",
-    "nameASCII" : "203",
-    "charWidth" : 7,
-    "charHeight" : 8,
-    "charAscent" : 8,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.796875,
-    "charRightBearing" : 0.515625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 96, 352 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "c8",
-    "nameASCII" : "200",
-    "charWidth" : 7,
-    "charHeight" : 9,
-    "charAscent" : 9,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.796875,
-    "charRightBearing" : 0.515625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 120, 351 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "131",
-    "nameASCII" : "305",
-    "charWidth" : 7,
-    "charHeight" : 6,
-    "charAscent" : 6,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.703125,
-    "charRightBearing" : 0.5,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 144, 354 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "cd",
-    "nameASCII" : "205",
-    "charWidth" : 7,
-    "charHeight" : 9,
-    "charAscent" : 9,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.984375,
-    "charRightBearing" : 0.96875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 168, 351 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "ce",
-    "nameASCII" : "206",
-    "charWidth" : 7,
-    "charHeight" : 9,
-    "charAscent" : 9,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.984375,
-    "charRightBearing" : 1.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 192, 351 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "cf",
-    "nameASCII" : "207",
-    "charWidth" : 7,
-    "charHeight" : 8,
-    "charAscent" : 8,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.984375,
-    "charRightBearing" : 1.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 0, 365 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2518",
-    "nameASCII" : "9496",
-    "charWidth" : 6,
-    "charHeight" : 6,
-    "charAscent" : 9,
-    "charDescent" : -3,
-    "charLeftBearing" : -0.046875,
-    "charRightBearing" : 2.640625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 24, 364 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "250c",
-    "nameASCII" : "9484",
-    "charWidth" : 6,
-    "charHeight" : 7,
-    "charAscent" : 4,
-    "charDescent" : 3,
-    "charLeftBearing" : 2.640625,
-    "charRightBearing" : -0.046875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 48, 369 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2588",
-    "nameASCII" : "9608",
-    "charWidth" : 8,
-    "charHeight" : 12,
-    "charAscent" : 9,
-    "charDescent" : 3,
-    "charLeftBearing" : 0.0,
-    "charRightBearing" : 0.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 72, 364 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2584",
-    "nameASCII" : "9604",
-    "charWidth" : 8,
-    "charHeight" : 7,
-    "charAscent" : 4,
-    "charDescent" : 3,
-    "charLeftBearing" : 0.0,
-    "charRightBearing" : 0.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 96, 369 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "a6",
-    "nameASCII" : "166",
-    "charWidth" : 3,
-    "charHeight" : 10,
-    "charAscent" : 8,
-    "charDescent" : 2,
-    "charLeftBearing" : 2.59375,
-    "charRightBearing" : 2.59375,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 120, 365 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "cc",
-    "nameASCII" : "204",
-    "charWidth" : 7,
-    "charHeight" : 9,
-    "charAscent" : 9,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.984375,
-    "charRightBearing" : 1.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 144, 364 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2580",
-    "nameASCII" : "9600",
-    "charWidth" : 8,
-    "charHeight" : 6,
-    "charAscent" : 9,
-    "charDescent" : -3,
-    "charLeftBearing" : 0.0,
-    "charRightBearing" : 0.0,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 168, 364 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "d3",
-    "nameASCII" : "211",
-    "charWidth" : 7,
-    "charHeight" : 9,
-    "charAscent" : 9,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.5,
-    "charRightBearing" : 0.5,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 192, 364 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "df",
-    "nameASCII" : "223",
-    "charWidth" : 8,
-    "charHeight" : 8,
-    "charAscent" : 8,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.6875,
-    "charRightBearing" : 0.296875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 0, 378 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "d4",
-    "nameASCII" : "212",
-    "charWidth" : 7,
-    "charHeight" : 9,
-    "charAscent" : 9,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.5,
-    "charRightBearing" : 0.5,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 24, 377 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "d2",
-    "nameASCII" : "210",
-    "charWidth" : 7,
-    "charHeight" : 9,
-    "charAscent" : 9,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.5,
-    "charRightBearing" : 0.5,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 48, 377 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "f5",
-    "nameASCII" : "245",
-    "charWidth" : 7,
-    "charHeight" : 8,
-    "charAscent" : 8,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.640625,
-    "charRightBearing" : 0.640625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 72, 378 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "d5",
-    "nameASCII" : "213",
-    "charWidth" : 7,
-    "charHeight" : 9,
-    "charAscent" : 9,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.5,
-    "charRightBearing" : 0.5,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 96, 377 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "b5",
-    "nameASCII" : "181",
-    "charWidth" : 7,
-    "charHeight" : 8,
-    "charAscent" : 6,
-    "charDescent" : 2,
-    "charLeftBearing" : 0.703125,
-    "charRightBearing" : 0.703125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 120, 380 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "fe",
-    "nameASCII" : "254",
-    "charWidth" : 7,
-    "charHeight" : 10,
-    "charAscent" : 8,
-    "charDescent" : 2,
-    "charLeftBearing" : 0.90625,
-    "charRightBearing" : 0.671875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 144, 378 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "de",
-    "nameASCII" : "222",
-    "charWidth" : 7,
-    "charHeight" : 7,
-    "charAscent" : 7,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.796875,
-    "charRightBearing" : 0.53125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 168, 379 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "da",
-    "nameASCII" : "218",
-    "charWidth" : 7,
-    "charHeight" : 9,
-    "charAscent" : 9,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.6875,
-    "charRightBearing" : 0.703125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 192, 377 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "db",
-    "nameASCII" : "219",
-    "charWidth" : 7,
-    "charHeight" : 9,
-    "charAscent" : 9,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.6875,
-    "charRightBearing" : 0.703125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 0, 390 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "d9",
-    "nameASCII" : "217",
-    "charWidth" : 7,
-    "charHeight" : 9,
-    "charAscent" : 9,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.6875,
-    "charRightBearing" : 0.703125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 24, 390 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "fd",
-    "nameASCII" : "253",
-    "charWidth" : 8,
-    "charHeight" : 10,
-    "charAscent" : 8,
-    "charDescent" : 2,
-    "charLeftBearing" : 0.328125,
-    "charRightBearing" : 0.328125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 48, 391 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "dd",
-    "nameASCII" : "221",
-    "charWidth" : 8,
-    "charHeight" : 9,
-    "charAscent" : 9,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.171875,
-    "charRightBearing" : 0.171875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 72, 390 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "af",
-    "nameASCII" : "175",
-    "charWidth" : 9,
-    "charHeight" : 1,
-    "charAscent" : 9,
-    "charDescent" : -8,
-    "charLeftBearing" : -0.03125,
-    "charRightBearing" : -0.015625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 96, 390 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "b4",
-    "nameASCII" : "180",
-    "charWidth" : 5,
-    "charHeight" : 2,
-    "charAscent" : 8,
-    "charDescent" : -6,
-    "charLeftBearing" : 1.96875,
-    "charRightBearing" : 1.96875,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 120, 391 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2261",
-    "nameASCII" : "8801",
-    "charWidth" : 7,
-    "charHeight" : 5,
-    "charAscent" : 6,
-    "charDescent" : -1,
-    "charLeftBearing" : 0.5625,
-    "charRightBearing" : 0.578125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 144, 393 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "b1",
-    "nameASCII" : "177",
-    "charWidth" : 7,
-    "charHeight" : 6,
-    "charAscent" : 6,
-    "charDescent" : 0,
-    "charLeftBearing" : 0.5625,
-    "charRightBearing" : 0.578125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 168, 393 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "2017",
-    "nameASCII" : "8215",
-    "charWidth" : 9,
-    "charHeight" : 2,
-    "charAscent" : 0,
-    "charDescent" : 2,
-    "charLeftBearing" : -0.03125,
-    "charRightBearing" : -0.015625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 192, 399 ],
+    "charPosition" : [ 0, 275 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "be",
@@ -3362,31 +2294,679 @@
     "charLeftBearing" : 0.140625,
     "charRightBearing" : -0.015625,
     "charMaxHeight" : 11,
-    "charPosition" : [ 0, 405 ],
+    "charPosition" : [ 24, 275 ],
     "logicalWidth" : 6.0
   }, {
-    "nameHex" : "b6",
-    "nameASCII" : "182",
+    "nameHex" : "bf",
+    "nameASCII" : "191",
     "charWidth" : 7,
+    "charHeight" : 7,
+    "charAscent" : 6,
+    "charDescent" : 1,
+    "charLeftBearing" : 0.75,
+    "charRightBearing" : 0.46875,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 48, 276 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "c0",
+    "nameASCII" : "192",
+    "charWidth" : 8,
+    "charHeight" : 9,
+    "charAscent" : 9,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.0,
+    "charRightBearing" : 0.0,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 72, 273 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "c1",
+    "nameASCII" : "193",
+    "charWidth" : 8,
+    "charHeight" : 9,
+    "charAscent" : 9,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.0,
+    "charRightBearing" : 0.0,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 96, 273 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "c2",
+    "nameASCII" : "194",
+    "charWidth" : 8,
+    "charHeight" : 9,
+    "charAscent" : 9,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.0,
+    "charRightBearing" : 0.0,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 120, 273 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "c3",
+    "nameASCII" : "195",
+    "charWidth" : 8,
+    "charHeight" : 9,
+    "charAscent" : 9,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.0,
+    "charRightBearing" : 0.0,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 144, 273 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "c4",
+    "nameASCII" : "196",
+    "charWidth" : 8,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.0,
+    "charRightBearing" : 0.0,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 168, 274 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "c5",
+    "nameASCII" : "197",
+    "charWidth" : 8,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.0,
+    "charRightBearing" : 0.0,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 192, 274 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "c6",
+    "nameASCII" : "198",
+    "charWidth" : 8,
+    "charHeight" : 7,
+    "charAscent" : 7,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.0,
+    "charRightBearing" : 0.171875,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 0, 288 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "c7",
+    "nameASCII" : "199",
+    "charWidth" : 8,
     "charHeight" : 9,
     "charAscent" : 7,
     "charDescent" : 2,
-    "charLeftBearing" : 0.625,
-    "charRightBearing" : 0.71875,
+    "charLeftBearing" : 0.546875,
+    "charRightBearing" : 0.421875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 24, 405 ],
+    "charPosition" : [ 24, 288 ],
     "logicalWidth" : 6.0
   }, {
-    "nameHex" : "a7",
-    "nameASCII" : "167",
+    "nameHex" : "c8",
+    "nameASCII" : "200",
     "charWidth" : 7,
     "charHeight" : 9,
+    "charAscent" : 9,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.796875,
+    "charRightBearing" : 0.515625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 48, 286 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "c9",
+    "nameASCII" : "201",
+    "charWidth" : 7,
+    "charHeight" : 9,
+    "charAscent" : 9,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.796875,
+    "charRightBearing" : 0.515625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 72, 286 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "ca",
+    "nameASCII" : "202",
+    "charWidth" : 7,
+    "charHeight" : 9,
+    "charAscent" : 9,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.796875,
+    "charRightBearing" : 0.515625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 96, 286 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "cb",
+    "nameASCII" : "203",
+    "charWidth" : 7,
+    "charHeight" : 8,
     "charAscent" : 8,
-    "charDescent" : 1,
-    "charLeftBearing" : 0.78125,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.796875,
+    "charRightBearing" : 0.515625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 120, 287 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "cc",
+    "nameASCII" : "204",
+    "charWidth" : 7,
+    "charHeight" : 9,
+    "charAscent" : 9,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.984375,
+    "charRightBearing" : 1.0,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 144, 286 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "cd",
+    "nameASCII" : "205",
+    "charWidth" : 7,
+    "charHeight" : 9,
+    "charAscent" : 9,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.984375,
+    "charRightBearing" : 0.96875,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 168, 286 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "ce",
+    "nameASCII" : "206",
+    "charWidth" : 7,
+    "charHeight" : 9,
+    "charAscent" : 9,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.984375,
+    "charRightBearing" : 1.0,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 192, 286 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "cf",
+    "nameASCII" : "207",
+    "charWidth" : 7,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.984375,
+    "charRightBearing" : 1.0,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 0, 300 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "d0",
+    "nameASCII" : "208",
+    "charWidth" : 8,
+    "charHeight" : 7,
+    "charAscent" : 7,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.125,
+    "charRightBearing" : 0.5,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 24, 301 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "d1",
+    "nameASCII" : "209",
+    "charWidth" : 7,
+    "charHeight" : 9,
+    "charAscent" : 9,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.796875,
+    "charRightBearing" : 0.796875,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 48, 299 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "d2",
+    "nameASCII" : "210",
+    "charWidth" : 7,
+    "charHeight" : 9,
+    "charAscent" : 9,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.5,
+    "charRightBearing" : 0.5,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 72, 299 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "d3",
+    "nameASCII" : "211",
+    "charWidth" : 7,
+    "charHeight" : 9,
+    "charAscent" : 9,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.5,
+    "charRightBearing" : 0.5,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 96, 299 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "d4",
+    "nameASCII" : "212",
+    "charWidth" : 7,
+    "charHeight" : 9,
+    "charAscent" : 9,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.5,
+    "charRightBearing" : 0.5,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 120, 299 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "d5",
+    "nameASCII" : "213",
+    "charWidth" : 7,
+    "charHeight" : 9,
+    "charAscent" : 9,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.5,
+    "charRightBearing" : 0.5,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 144, 299 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "d6",
+    "nameASCII" : "214",
+    "charWidth" : 7,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.5,
+    "charRightBearing" : 0.5,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 168, 300 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "d7",
+    "nameASCII" : "215",
+    "charWidth" : 7,
+    "charHeight" : 5,
+    "charAscent" : 6,
+    "charDescent" : -1,
+    "charLeftBearing" : 0.765625,
     "charRightBearing" : 0.78125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 48, 404 ],
+    "charPosition" : [ 192, 302 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "d8",
+    "nameASCII" : "216",
+    "charWidth" : 8,
+    "charHeight" : 7,
+    "charAscent" : 7,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.28125,
+    "charRightBearing" : 0.28125,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 0, 314 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "d9",
+    "nameASCII" : "217",
+    "charWidth" : 7,
+    "charHeight" : 9,
+    "charAscent" : 9,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.6875,
+    "charRightBearing" : 0.703125,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 24, 312 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "da",
+    "nameASCII" : "218",
+    "charWidth" : 7,
+    "charHeight" : 9,
+    "charAscent" : 9,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.6875,
+    "charRightBearing" : 0.703125,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 48, 312 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "db",
+    "nameASCII" : "219",
+    "charWidth" : 7,
+    "charHeight" : 9,
+    "charAscent" : 9,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.6875,
+    "charRightBearing" : 0.703125,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 72, 312 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "dc",
+    "nameASCII" : "220",
+    "charWidth" : 7,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.6875,
+    "charRightBearing" : 0.703125,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 96, 313 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "dd",
+    "nameASCII" : "221",
+    "charWidth" : 8,
+    "charHeight" : 9,
+    "charAscent" : 9,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.171875,
+    "charRightBearing" : 0.171875,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 120, 312 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "de",
+    "nameASCII" : "222",
+    "charWidth" : 7,
+    "charHeight" : 7,
+    "charAscent" : 7,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.796875,
+    "charRightBearing" : 0.53125,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 144, 314 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "df",
+    "nameASCII" : "223",
+    "charWidth" : 8,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.6875,
+    "charRightBearing" : 0.296875,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 168, 313 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "e0",
+    "nameASCII" : "224",
+    "charWidth" : 8,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 0.328125,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 192, 313 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "e1",
+    "nameASCII" : "225",
+    "charWidth" : 8,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 0.328125,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 0, 326 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "e2",
+    "nameASCII" : "226",
+    "charWidth" : 8,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 0.328125,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 24, 326 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "e3",
+    "nameASCII" : "227",
+    "charWidth" : 8,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 0.328125,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 48, 326 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "e4",
+    "nameASCII" : "228",
+    "charWidth" : 8,
+    "charHeight" : 7,
+    "charAscent" : 7,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 0.328125,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 72, 327 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "e5",
+    "nameASCII" : "229",
+    "charWidth" : 8,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.625,
+    "charRightBearing" : 0.328125,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 96, 326 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "e6",
+    "nameASCII" : "230",
+    "charWidth" : 8,
+    "charHeight" : 6,
+    "charAscent" : 6,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.09375,
+    "charRightBearing" : 0.09375,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 120, 328 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "e7",
+    "nameASCII" : "231",
+    "charWidth" : 7,
+    "charHeight" : 8,
+    "charAscent" : 6,
+    "charDescent" : 2,
+    "charLeftBearing" : 0.640625,
+    "charRightBearing" : 0.71875,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 144, 328 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "e8",
+    "nameASCII" : "232",
+    "charWidth" : 7,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.65625,
+    "charRightBearing" : 0.65625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 168, 326 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "e9",
+    "nameASCII" : "233",
+    "charWidth" : 7,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.65625,
+    "charRightBearing" : 0.65625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 192, 326 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "ea",
+    "nameASCII" : "234",
+    "charWidth" : 7,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.65625,
+    "charRightBearing" : 0.65625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 0, 339 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "eb",
+    "nameASCII" : "235",
+    "charWidth" : 7,
+    "charHeight" : 7,
+    "charAscent" : 7,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.65625,
+    "charRightBearing" : 0.65625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 24, 340 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "ec",
+    "nameASCII" : "236",
+    "charWidth" : 7,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.703125,
+    "charRightBearing" : 0.5,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 48, 339 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "ed",
+    "nameASCII" : "237",
+    "charWidth" : 7,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.703125,
+    "charRightBearing" : 0.5,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 72, 339 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "ee",
+    "nameASCII" : "238",
+    "charWidth" : 7,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.703125,
+    "charRightBearing" : 0.5,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 96, 339 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "ef",
+    "nameASCII" : "239",
+    "charWidth" : 7,
+    "charHeight" : 7,
+    "charAscent" : 7,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.703125,
+    "charRightBearing" : 0.5,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 120, 340 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "f0",
+    "nameASCII" : "240",
+    "charWidth" : 7,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.609375,
+    "charRightBearing" : 0.625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 144, 339 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "f1",
+    "nameASCII" : "241",
+    "charWidth" : 7,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.875,
+    "charRightBearing" : 0.875,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 168, 339 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "f2",
+    "nameASCII" : "242",
+    "charWidth" : 7,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.640625,
+    "charRightBearing" : 0.640625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 192, 339 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "f3",
+    "nameASCII" : "243",
+    "charWidth" : 7,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.640625,
+    "charRightBearing" : 0.640625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 0, 352 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "f4",
+    "nameASCII" : "244",
+    "charWidth" : 7,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.640625,
+    "charRightBearing" : 0.640625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 24, 352 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "f5",
+    "nameASCII" : "245",
+    "charWidth" : 7,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.640625,
+    "charRightBearing" : 0.640625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 48, 352 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "f6",
+    "nameASCII" : "246",
+    "charWidth" : 7,
+    "charHeight" : 7,
+    "charAscent" : 7,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.640625,
+    "charRightBearing" : 0.640625,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 72, 353 ],
     "logicalWidth" : 6.0
   }, {
     "nameHex" : "f7",
@@ -3398,103 +2978,115 @@
     "charLeftBearing" : 0.5625,
     "charRightBearing" : 0.578125,
     "charMaxHeight" : 11,
-    "charPosition" : [ 72, 406 ],
+    "charPosition" : [ 96, 354 ],
     "logicalWidth" : 6.0
   }, {
-    "nameHex" : "b8",
-    "nameASCII" : "184",
-    "charWidth" : 4,
-    "charHeight" : 3,
-    "charAscent" : 0,
-    "charDescent" : 3,
-    "charLeftBearing" : 0.578125,
-    "charRightBearing" : 3.640625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 96, 412 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "b0",
-    "nameASCII" : "176",
-    "charWidth" : 5,
-    "charHeight" : 3,
-    "charAscent" : 7,
-    "charDescent" : -4,
-    "charLeftBearing" : 1.59375,
-    "charRightBearing" : 1.59375,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 120, 405 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "a8",
-    "nameASCII" : "168",
-    "charWidth" : 5,
-    "charHeight" : 1,
-    "charAscent" : 7,
-    "charDescent" : -6,
-    "charLeftBearing" : 1.640625,
-    "charRightBearing" : 1.640625,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 144, 405 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "b7",
-    "nameASCII" : "183",
-    "charWidth" : 4,
-    "charHeight" : 2,
-    "charAscent" : 4,
-    "charDescent" : -2,
-    "charLeftBearing" : 2.421875,
-    "charRightBearing" : 2.4375,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 168, 408 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "b9",
-    "nameASCII" : "185",
-    "charWidth" : 6,
-    "charHeight" : 5,
-    "charAscent" : 7,
-    "charDescent" : -2,
-    "charLeftBearing" : 1.390625,
-    "charRightBearing" : 1.5,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 192, 405 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "b3",
-    "nameASCII" : "179",
-    "charWidth" : 5,
-    "charHeight" : 5,
-    "charAscent" : 7,
-    "charDescent" : -2,
-    "charLeftBearing" : 1.5,
-    "charRightBearing" : 1.5,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 0, 418 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "b2",
-    "nameASCII" : "178",
-    "charWidth" : 5,
-    "charHeight" : 5,
-    "charAscent" : 7,
-    "charDescent" : -2,
-    "charLeftBearing" : 1.53125,
-    "charRightBearing" : 1.53125,
-    "charMaxHeight" : 11,
-    "charPosition" : [ 24, 418 ],
-    "logicalWidth" : 6.0
-  }, {
-    "nameHex" : "25a0",
-    "nameASCII" : "9632",
+    "nameHex" : "f8",
+    "nameASCII" : "248",
     "charWidth" : 7,
-    "charHeight" : 5,
+    "charHeight" : 6,
     "charAscent" : 6,
-    "charDescent" : -1,
-    "charLeftBearing" : 0.578125,
-    "charRightBearing" : 0.578125,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.53125,
+    "charRightBearing" : 0.546875,
     "charMaxHeight" : 11,
-    "charPosition" : [ 48, 419 ],
+    "charPosition" : [ 120, 354 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "f9",
+    "nameASCII" : "249",
+    "charWidth" : 7,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.90625,
+    "charRightBearing" : 0.84375,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 144, 352 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "fa",
+    "nameASCII" : "250",
+    "charWidth" : 7,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.90625,
+    "charRightBearing" : 0.84375,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 168, 352 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "fb",
+    "nameASCII" : "251",
+    "charWidth" : 7,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.90625,
+    "charRightBearing" : 0.84375,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 192, 352 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "fc",
+    "nameASCII" : "252",
+    "charWidth" : 7,
+    "charHeight" : 7,
+    "charAscent" : 7,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.90625,
+    "charRightBearing" : 0.84375,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 0, 366 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "fd",
+    "nameASCII" : "253",
+    "charWidth" : 8,
+    "charHeight" : 10,
+    "charAscent" : 8,
+    "charDescent" : 2,
+    "charLeftBearing" : 0.328125,
+    "charRightBearing" : 0.328125,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 24, 365 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "fe",
+    "nameASCII" : "254",
+    "charWidth" : 7,
+    "charHeight" : 10,
+    "charAscent" : 8,
+    "charDescent" : 2,
+    "charLeftBearing" : 0.90625,
+    "charRightBearing" : 0.671875,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 48, 365 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "ff",
+    "nameASCII" : "255",
+    "charWidth" : 8,
+    "charHeight" : 9,
+    "charAscent" : 7,
+    "charDescent" : 2,
+    "charLeftBearing" : 0.328125,
+    "charRightBearing" : 0.328125,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 72, 366 ],
+    "logicalWidth" : 6.0
+  }, {
+    "nameHex" : "100",
+    "nameASCII" : "256",
+    "charWidth" : 8,
+    "charHeight" : 8,
+    "charAscent" : 8,
+    "charDescent" : 0,
+    "charLeftBearing" : 0.0,
+    "charRightBearing" : 0.0,
+    "charMaxHeight" : 11,
+    "charPosition" : [ 96, 365 ],
     "logicalWidth" : 6.0
   } ]
 }
