@@ -87,7 +87,7 @@ public class BitmapFontCreator
             argsParser.parseArgument(args);
         }
         catch (CmdLineException e) {
-            System.err.println("Usage: java -jar bitmapfontcreator.jar [options...]");
+            System.err.println("Usage: java -jar FontGrabber.jar [options...]");
             argsParser.printUsage(System.err);
             return null;
         }
